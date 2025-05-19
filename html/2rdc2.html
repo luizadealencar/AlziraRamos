@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>2RDC2 - EEEFM Alzira Ramos</title>
+    <link rel="stylesheet" href="..\css\turma.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Turma 2RDC2</h1>
+        <a href="..\html\index.html">Voltar para o site</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Horário - 1IPI1</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13:00 - 13:50</td>
+                        <td>ALP</td>
+                        <td>INGLÊS</td>
+                        <td>PORT</td>
+                        <td>MAT</td>
+                        <td>BIO</td>
+                    </tr>
+                    <tr>
+                        <td>13:50 - 14:40</td>
+                        <td>Eletiva</td>
+                        <td>PORT</td>
+                        <td>MAT</td>
+                        <td>QUI</td>
+                        <td>GEO</td>
+                    </tr>
+                    <tr>
+                        <td>14:40 - 15:30</td>
+                        <td>FIS</td>
+                        <td>ARTES</td>
+                        <td>HIST</td>
+                        <td>SOC</td>
+                        <td>PORT</td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 16:20</td>
+                        <td>MAT</td>
+                        <td>PORT</td>
+                        <td>PV</td>
+                        <td>QUI</td>
+                        <td>FIS</td>
+                    </tr>
+                    <tr>
+                        <td>16:20 - 16:40</td>
+                        <td colspan="5" style="text-align:center">Recreio</td>
+                    </tr>
+                    <tr>
+                        <td>16:40 - 17:30</td>
+                        <td>GEO</td>
+                        <td>BIO</td>
+                        <td>QUI</td>
+                        <td>PV</td>
+                        <td>MAT</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 - 18:20</td>
+                        <td>PORT</td>
+                        <td>HIST</td>
+                        <td>GEO</td>
+                        <td>FIS</td>
+                        <td>ARTES</td>
+                    </tr>
+                    <tr>
+                        <td>18:20 - 19:10</td>
+                        <td>EO</td>
+                        <td>Eletiva</td>
+                        <td>Eletiva</td>
+                        <td>MAT</td>
+                        <td>FIS</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>Calendário de Atividades</h2>
+            <input type="date" id="dataAtividade" />
+            <input type="text" id="descricaoAtividade" placeholder="Descrição da atividade" />
+            <button onclick="adicionarAtividade()">Adicionar</button>
+            <ul id="listaAtividades"></ul>
+        </section>
+    </main>
+
+    <script src="..\js\script.js"></script>
+</body>
+
+</html>

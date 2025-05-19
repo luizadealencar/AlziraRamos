@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>1IPI1 - EEEFM Alzira Ramos</title>
+    <link rel="stylesheet" href="..\css\turma.css" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Turma 1IPI1</h1>
+        <a href="..\html\index.html">Voltar para o site</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Horário - 1IPI1</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13:00 - 13:50</td>
+                        <td>Algoritmo e Lógica de Programação</td>
+                        <td>Educação Física</td>
+                        <td>Algoritmo e Lógica de Programação</td>
+                        <td>Filosofia</td>
+                        <td>Projeto de Vida</td>
+                    </tr>
+                    <tr>
+                        <td>13:50 - 14:40</td>
+                        <td>Eletiva</td>
+                        <td>Física</td>
+                        <td>Matemática</td>
+                        <td>Higiene e Saúde e Segurança</td>
+                        <td>Química</td>
+                    </tr>
+                    <tr>
+                        <td>14:40 - 15:30</td>
+                        <td>Eletiva</td>
+                        <td>Matemática</td>
+                        <td>Matemática</td>
+                        <td>Práticas Experimentais</td>
+                        <td>Inglês</td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 16:20</td>
+                        <td>Estudo Orientado</td>
+                        <td>Português</td>
+                        <td>Artes</td>
+                        <td>Química</td>
+                        <td>Português</td>
+                    </tr>
+                    <tr>
+                        <td>16:20 - 16:40</td>
+                        <td colspan="5" style="text-align:center">Recreio</td>
+                    </tr>
+                    <tr>
+                        <td>16:40 - 17:30</td>
+                        <td>Física</td>
+                        <td>Português</td>
+                        <td>Inglês</td>
+                        <td>Sistemas Operacionais</td>
+                        <td>Português</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 - 18:20</td>
+                        <td>Sociologia</td>
+                        <td>Português</td>
+                        <td>Sociologia</td>
+                        <td>Algoritmo e Lógica de Programação</td>
+                        <td>Português</td>
+                    </tr>
+                    <tr>
+                        <td>18:20 - 19:10</td>
+                        <td>Práticas Experimentais</td>
+                        <td>Português</td>
+                        <td>Inglês</td>
+                        <td>Sistemas Operacionais</td>
+                        <td>Matemática</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>Calendário de Atividades - 1IPI1</h2>
+
+            <input type="date" id="dataAtividade" required>
+            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
+            <input type="text" id="professorAtividade" placeholder="Professor" required>
+            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
+            <button onclick="adicionarAtividade()">Adicionar</button>
+
+            <div id="calendarioReal"></div>
+        </section>
+    </main>
+
+    <script src="..\js\script.js"></script>
+    
+</body>
+
+</html>

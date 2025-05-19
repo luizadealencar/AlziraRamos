@@ -1,0 +1,118 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: url('img/banner.jpg') no-repeat center center/cover;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* camada escura transparente */
+  z-index: 1;
+}
+
+header h1, header nav {
+  position: relative;
+  z-index: 2;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #c8102e;
+  font-family: 'Georgia', serif;
+}
+
+#lista-noticias, #lista-professores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#lista-professores .professor {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+#lista-professores img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.galeria-turmas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.turma {
+  width: 150px;
+  text-align: center;
+}
+
+.turma img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #002244;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
