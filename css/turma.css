@@ -97,5 +97,43 @@ li {
 .fc .fc-view-harness {
   flex-grow: 1;
   position: relative;
-  width: 920px;
+}
+
+#professores {
+  margin-top: 40px;
+}
+
+.lista-professores {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.professor {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.professor img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.professor h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.professor p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
 }

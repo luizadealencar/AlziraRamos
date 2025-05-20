@@ -18,11 +18,13 @@ header::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* camada escura transparente */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* camada escura transparente */
   z-index: 1;
 }
 
-header h1, header nav {
+header h1,
+header nav {
   position: relative;
   z-index: 2;
 }
@@ -55,13 +57,13 @@ h2 {
   font-family: 'Georgia', serif;
 }
 
-#lista-noticias, #lista-professores {
+#lista-noticias, #lista-equipe{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-#lista-professores .professor {
+.professor {
   background: white;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -70,12 +72,13 @@ h2 {
   text-align: center;
 }
 
-#lista-professores img {
+.professor img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
+
 
 .galeria-turmas {
   display: flex;
@@ -100,11 +103,14 @@ table {
   margin-top: 1rem;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #ccc;
 }
 
-th, td {
+th,
+td {
   padding: 0.5rem;
   text-align: center;
 }
@@ -115,4 +121,48 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+#carrossel-noticias {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.noticia {
+  min-width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background: #f9f9f9;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.noticia:hover {
+  background: #e0f7fa;
+}
+
+.noticia img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+#fechar-reportagem {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+#fechar-reportagem:hover {
+  background-color: #0056b3;
 }

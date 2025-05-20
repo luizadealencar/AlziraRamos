@@ -1,44 +1,28 @@
 // script.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  const professores = [
-    { nome: "Prof. João", disciplina: "Matemática", turmas: ["1ESP", "2IPI1"], formacao: "Licenciatura em Matemática", foto: "professores/joao.jpg" },
-    { nome: "Profª. Luiza", disciplina: "Algoritmo e Lógica de Programação", turmas: ["1IPI1", "1IPI2"], formacao: "Sistema de Informação", foto: "../img/luiza.jpg" },
-    { nome: "Profª. Luiza", disciplina: "Linguagem de Programação Aplicado a WEB", turmas: ["2IPI1", "2IPI2"], formacao: "Sistema de Informação", foto: "../img/luiza.jpg" },
-    { nome: "Profª. Luiza", disciplina: "Linguagem de Programação Orientado a Objeto e Desenvolvimento de Sistema", turmas: ["3IPI1", "3IPI2"], formacao: "Sistema de Informação", foto: "../img/luiza.jpg" },
-    { nome: "Profª. Luiza", disciplina: "Administração de Redes e Linguagem de Programação Orientado a Objeto", turmas: ["3RDC"], formacao: "Sistema de Informação", foto: "../img/luiza.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-    { nome: "Profª. Maria", disciplina: "Português", turmas: ["1IPI1", "3IPI2"], formacao: "Letras", foto: "professores/maria.jpg" },
-
-    // Adicione mais professores aqui
+  const equipe = [
+    { nome: "Coordenadora Ana", cargo: "Coordenadora", foto: "equipe/coordenadora1.jpg" },
+    { nome: "Coordenadora Beatriz", cargo: "Coordenadora", foto: "equipe/coordenadora2.jpg" },
+    { nome: "Pedagoga Clara", cargo: "Pedagoga", foto: "equipe/pedagoga.jpg" },
+    { nome: "Coordenadora Pedagógica Daniela", cargo: "Coord. Pedagógica", foto: "equipe/coordenadora-pedagoga.jpg" },
+    { nome: "Diretor Eduardo", cargo: "Diretor", foto: "equipe/diretor.jpg" }
+    // Adicione mais membros da equipe se quiser
   ];
 
-  const container = document.getElementById("lista-professores");
-  professores.forEach(prof => {
+  const containerEquipe = document.getElementById("lista-equipe");
+  equipe.forEach(membro => {
     const div = document.createElement("div");
     div.className = "professor";
     div.innerHTML = `
-      <img src="${prof.foto}" alt="${prof.nome}">
-      <h4>${prof.nome}</h4>
-      <p><strong>Disciplina:</strong> ${prof.disciplina}</p>
-      <p><strong>Turmas:</strong> ${prof.turmas.join(", ")}</p>
-      <p><strong>Formação:</strong> ${prof.formacao}</p>
+      <img src="${membro.foto}" alt="${membro.nome}">
+      <h4>${membro.nome}</h4>
+      <p><strong>Cargo:</strong> ${membro.cargo}</p>
     `;
-    container.appendChild(div);
+    containerEquipe.appendChild(div);
   });
 
+  // Mantém a parte do calendário das turmas, se ainda for usada:
   const turmas = ["1ESP", "1IPI1", "1IPI2", "2IPI1", "2IPI2", "3IPI1", "3IPI2", "2RDC1", "2RDC2", "3RDC"];
   const calendarioContainer = document.getElementById("calendarios-turmas");
   turmas.forEach(turma => {
@@ -48,8 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const turma = "1IPI1";
+
 let calendar;
+const turma = document.body.dataset.turma;
+console.log("TURMA DETECTADA:", turma);
+
 
 document.addEventListener("DOMContentLoaded", () => {
   renderizarCalendario();
@@ -96,16 +83,15 @@ function limparFormulario() {
 }
 
 function renderizarCalendario() {
-
   const calendarEl = document.getElementById('calendarioReal');
   calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
     locale: 'pt-br',
     height: 500,
     headerToolbar: {
-      left: 'title',    
-      center: '',      
-      right: 'prev,next'             
+      left: 'title',
+      center: '',
+      right: 'prev,next'
     },
     events: carregarEventos(),
     eventClick: function (info) {
@@ -121,7 +107,6 @@ function renderizarCalendario() {
 function carregarEventos() {
   const chave = `atividades_${turma}`;
   const atividades = JSON.parse(localStorage.getItem(chave)) || [];
-  // Garantir que cada evento tem 'id'
   return atividades.map(ev => ({
     id: ev.id,
     title: ev.title,
@@ -145,3 +130,32 @@ function excluirAtividade(id) {
   localStorage.setItem(chave, JSON.stringify(atividades));
   atualizarCalendario();
 }
+
+
+const noticias = document.querySelectorAll('.noticia');
+const reportagem = document.getElementById('reportagem');
+const tituloReportagem = document.getElementById('titulo-reportagem');
+const conteudoReportagem = document.getElementById('conteudo-reportagem');
+const btnFechar = document.getElementById('fechar-reportagem');
+const imagemReportagem = document.getElementById('imagem-reportagem');
+
+noticias.forEach(noticia => {
+  noticia.addEventListener('click', () => {
+    const titulo = noticia.querySelector('h3').innerText;
+    const conteudo = noticia.getAttribute('data-conteudo');
+    const img = noticia.querySelector('img').src;
+    const alt = noticia.querySelector('img').alt;
+
+    tituloReportagem.innerText = titulo;
+    conteudoReportagem.innerText = conteudo;
+    imagemReportagem.src = img;
+    imagemReportagem.alt = alt;
+
+    reportagem.style.display = 'block';
+    reportagem.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+btnFechar.addEventListener('click', () => {
+  reportagem.style.display = 'none';
+});
