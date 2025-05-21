@@ -95,13 +95,84 @@
 
         </section>
 
-        <section>
-            <h2>Calendário de Atividades</h2>
-            <input type="date" id="dataAtividade" />
-            <input type="text" id="descricaoAtividade" placeholder="Descrição da atividade" />
+       <section>
+            <h2>Calendário de Atividades - 1IPI1</h2>
+
+            <input type="date" id="dataAtividade" required>
+            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
+            <input type="text" id="professorAtividade" placeholder="Professor" required>
+            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
             <button onclick="adicionarAtividade()">Adicionar</button>
-            <ul id="listaAtividades"></ul>
+
+            <div id="calendarioReal"></div>
         </section>
+
+        <section id="professores">
+            <h2>Professores</h2>
+            <div class="lista-professores">
+                <div class="professor">
+                    <img src="..\img\luiza.jpg" alt="Luiza Alencar" />
+                    <h3>Luiza de Alencar</h3>
+                    <p>Disciplina: Algoritmo e Lógica de Programação</p>
+                </div>
+                <div class="professor">
+                    <img src="..img\ailton.jpg" alt="Foto da Professora Ailton" />
+                    <h3>Ailton</h3>
+                    <p>Disciplina: Projeto de Vida </p>
+                </div>
+                <div class="professor">
+                    <img src="..img\carlos.jpg" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="..img\leo.jpg" alt="Foto do Professor Leonardo Galiano" />
+                    <h3>Leonardo Galiano</h3>
+                    <p>Disciplina: Geografia </p>
+                </div>
+                <div class="professor">
+                    <img src="..\" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <script src="..\js\script.js"></script>
