@@ -2,11 +2,11 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const equipe = [
-    { nome: "Coordenadora Ana", cargo: "Coordenadora", foto: "equipe/coordenadora1.jpg" },
-    { nome: "Coordenadora Beatriz", cargo: "Coordenadora", foto: "equipe/coordenadora2.jpg" },
-    { nome: "Pedagoga Clara", cargo: "Pedagoga", foto: "equipe/pedagoga.jpg" },
-    { nome: "Coordenadora Pedagógica Daniela", cargo: "Coord. Pedagógica", foto: "equipe/coordenadora-pedagoga.jpg" },
-    { nome: "Diretor Eduardo", cargo: "Diretor", foto: "equipe/diretor.jpg" }
+    { nome: "Coordenadora Rita", cargo: "Coordenadora", foto: "../img/rita.jpg" },
+    { nome: "Coordenadora Marilza", cargo: "Coordenadora", foto: "../img/marilza.jpg" },
+    { nome: "Pedagoga Simone", cargo: "Pedagoga", foto: "../img/simone.jpg" },
+    { nome: "Coordenadora Pedagógica Claudia", cargo: "Coord. Pedagógica", foto: "../img/.jpg" },
+    { nome: "Diretor Vagner", cargo: "Diretor", foto: "../img/vagner.jpg" }
     // Adicione mais membros da equipe se quiser
   ];
 
