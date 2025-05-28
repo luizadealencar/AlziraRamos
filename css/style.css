@@ -166,3 +166,8 @@ footer {
 #fechar-reportagem:hover {
   background-color: #0056b3;
 }
+
+.grid img{
+  widht: 500px;
+  height: 300px;
+}
