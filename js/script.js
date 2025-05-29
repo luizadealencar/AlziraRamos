@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const equipe = [
     { nome: "Coordenadora Rita", cargo: "Coordenadora", foto: "../img/rita.jpg" },
     { nome: "Coordenadora Marilza", cargo: "Coordenadora", foto: "../img/marilza.jpg" },
-    { nome: "Pedagoga Simone", cargo: "Pedagoga", foto: "../img/simone.jpeg" },
-    { nome: "Coordenadora Pedagógica Claudia", cargo: "Coord. Pedagógica", foto: "../img/.jpg" },
+    { nome: "Pedagoga Simone", cargo: "Pedagoga", foto: "../img/simone.jpg" },
+    { nome: "Coordenadora Pedagógica Claudia", cargo: "Coord. Pedagógica", foto: "../img/claudia.jpg" },
     { nome: "Diretor Vagner", cargo: "Diretor", foto: "../img/Vagner.jpeg" }
     // Adicione mais membros da equipe se quiser
   ];
