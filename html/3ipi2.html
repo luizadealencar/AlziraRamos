@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <title>3IPI2 - EEEFM Alzira Ramos</title>
     <link rel="stylesheet" href="..\css\turma.css" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
 </head>
 
 <body>
@@ -94,11 +96,76 @@
         </section>
 
         <section>
-            <h2>Calendário de Atividades</h2>
-            <input type="date" id="dataAtividade" />
-            <input type="text" id="descricaoAtividade" placeholder="Descrição da atividade" />
+            <h2>Calendário de Atividades - 3IPI2</h2>
+
+            <input type="date" id="dataAtividade" required>
+            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
+            <input type="text" id="professorAtividade" placeholder="Professor" required>
+            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
             <button onclick="adicionarAtividade()">Adicionar</button>
-            <ul id="listaAtividades"></ul>
+
+            <div id="calendarioReal"></div>
+        </section>
+
+        <section id="professores">
+            <h2>Professores</h2>
+            <div class="lista-professores">
+                <div class="professor">
+                    <img src="..\img\wanessa.jpg" alt="Foto da Professora Wanessa Katiuscia Rodrigues Souza" />
+                    <h3>Wanessa Katiuscia Rodrigues Souza</h3>
+                    <p>Disciplina: Português</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\alan.jpg" alt="Foto da Professora Alan Coutinho Nielsen" />
+                    <h3>Alan Coutinho Nielsen</h3>
+                    <p>Disciplina: Segurança de Redes</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\vinicuis.jpg" alt="Foto da Professora Vinicius Premoli" />
+                    <h3>Vinicius Premoli</h3>
+                    <p>Disciplina: Desenvolvimento de Games </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\leonardoh.jpg" alt="Foto da Professora Leonardo Faccini Bringer" />
+                    <h3>Leonardo Faccini Bringer</h3>
+                    <p>Disciplina: História</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\leonardogeo.jpg" alt="Foto do Professor Leonardo Galiano" />
+                    <h3>Leonardo Galiano</h3>
+                    <p>Disciplina: Geografia </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\andreangelo.jpg" alt="Foto do Professor Andreangelo Patuzzo" />
+                    <h3>Andreangelo Patuzzo</h3>
+                    <p>Disciplina: Projetos Empreendedores</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\luiza.jpg" alt="Foto da Professora Luiza Alencar" />
+                    <h3>Luiza de Alencar</h3>
+                    <p>Disciplina: Linguagem de Programação Orientada a Objetos, Desenvolvimento de Sistemas</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\kelly.jpg" alt="Foto da Professora Kely Cristina" />
+                    <h3>Kely Cristina</h3>
+                    <p>Disciplina: Biologia </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\euvideo.jpg" alt="Foto do Professor Euvideo Ferreira Nascimento Neto" />
+                    <h3>Euvideo Ferreira Nascimento Neto</h3>
+                    <p>Disciplina: Arquitetura, Segurança e Projeto de Redes </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\carla.jpg" alt="Foto da Professora Carla Pereira" />
+                    <h3>Carla Pereira</h3>
+                    <p>Disciplina: Matemática </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\Luana.jpeg" alt="Foto da Professora Luana" />
+                    <h3>Luana</h3>
+                    <p>Disciplina: Projeto de Vida </p>
+                </div>
+            </div>
         </section>
     </main>
 

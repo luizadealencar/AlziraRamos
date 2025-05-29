@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <title>2RDC2 - EEEFM Alzira Ramos</title>
     <link rel="stylesheet" href="..\css\turma.css" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
 
     <main>
         <section>
-            <h2>Horário - 1IPI1</h2>
+            <h2>Horário - 2RDC2</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -94,11 +96,81 @@
         </section>
 
         <section>
-            <h2>Calendário de Atividades</h2>
-            <input type="date" id="dataAtividade" />
-            <input type="text" id="descricaoAtividade" placeholder="Descrição da atividade" />
+            <h2>Calendário de Atividades - 2RDC2</h2>
+
+            <input type="date" id="dataAtividade" required>
+            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
+            <input type="text" id="professorAtividade" placeholder="Professor" required>
+            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
             <button onclick="adicionarAtividade()">Adicionar</button>
-            <ul id="listaAtividades"></ul>
+
+            <div id="calendarioReal"></div>
+        </section>
+
+        <section id="professores">
+            <h2>Professores</h2>
+            <div class="lista-professores">
+                <div class="professor">
+                    <img src="..\img\luiza.jpg" alt="Luiza Alencar" />
+                    <h3>Luiza de Alencar</h3>
+                    <p>Disciplina: Algoritmo e Lógica de Programação</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\raimunda.jpg" alt="Raimunda" />
+                    <h3>Raimunda</h3>
+                    <p>Disciplina: Sistema Operacionais</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\carlos.jpg" alt="Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\genecy.jpg" alt="Genecy Peges" />
+                    <h3>Genecy Peges</h3>
+                    <p>Disciplina: Inglês</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\dayara.jpeg" alt="Dayara Falqueto" />
+                    <h3>Dayara Falqueto</h3>
+                    <p>Disciplina: Geografia</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\Luana.jpeg" alt="Luana" />
+                    <h3>Luana</h3>
+                    <p>Disciplina: Sociologia </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\ailton.jpg" alt="José Ailton Vargas da Rosa" />
+                    <h3>José Ailton Vargas da Rosa</h3>
+                    <p>Disciplina: Projeto de Vida e Filosofia</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\debora.jpg" alt="Debora" />
+                    <h3>Debora</h3>
+                    <p>Disciplina: Química </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\wall.jpeg" alt="Walldimara" />
+                    <h3>Walldimara</h3>
+                    <p>Disciplina: Artes </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\erika.jpg" alt="Erika" />
+                    <h3>Erika</h3>
+                    <p>Disciplina: Português </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\leonardoh.jpg" alt="Leonardo Faccini Bringer" />
+                    <h3>Leonardo Faccini Bringer</h3>
+                    <p>Disciplina: História</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\michely.jpg" alt="Michely de Menezes Garcia Vilet" />
+                    <h3>Michely de Menezes Garcia Vilet</h3>
+                    <p>Disciplina: Educação Fisica</p>
+                </div>
+            </div>
         </section>
     </main>
 
