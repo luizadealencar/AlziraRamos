@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site escolar completo com notícias, projetos, equipe, turmas e calendário">
+    <title>EEEFM Alzira Ramos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">
+                <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
+                    class="navbar-logo">
+                <span class="navbar-title">EEEFM Alzira Ramos</span>
+            </a>
+
+            <ul class="navbar-nav" id="navbarNav">
+                <li><a href="#noticias" class="nav-link">Notícias</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#equipe" class="nav-link">Equipe</a></li>
+                <li><a href="#turmas" class="btn btn-primary">Turmas</a></li>
+            </ul>
+
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1><strong>EEEFM Alzira Ramos</strong></h1>
+                <p>Educação de qualidade para um futuro brilhante.</p>
+                <a href="#sobre" class="btn btn-outline">Vamos Lá</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- News Section -->
+    <section class="section" id="noticias">
+        <div class="container">
+            <h2 class="section-title">Notícias Recentes</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400"
+                        alt="Olimpíada de Geografia">
+                    <div class="news-card-content">
+                        <h3>Olimpíada de Geografia</h3>
+                        <p class="news-date">Sexta-feira, 30 de Maio de 2025</p>
+                        <p>>Clique para ler a reportagem completa.</p>
+                        <a href="#" class="btn btn-primary">Veja</a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400"
+                        alt="Encontro Literário">
+                    <div class="news-card-content">
+                        <h3>Encontro Literário</h3>
+                        <p class="news-date">Quinta-feira, 29 de Maio de 2025</p>
+                        <p>Palestra sobre a importância da leitura com a escritora Ana Beatriz.</p>
+                        <a href="#" class="btn btn-primary">Veja</a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=400"
+                        alt="Olimpíada Matemática">
+                    <div class="news-card-content">
+                        <h3>Olimpíada Matemática</h3>
+                        <p class="news-date">Quarta-feira, 28 de Maio de 2025</p>
+                        <p>Competição de matemática entre as turmas do ensino fundamental.</p>
+                        <a href="#" class="btn btn-primary">Veja</a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1606636660488-16a8646f012c?w=400" alt="Semana Cultural">
+                    <div class="news-card-content">
+                        <h3>Semana Cultural</h3>
+                        <p class="news-date">Terça-feira, 27 de Maio de 2025</p>
+                        <p>Apresentação teatral dos alunos do 7º ano sobre a história do Brasil.</p>
+                        <a href="#" class="btn btn-primary">Veja</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="projetos">
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600" alt="Projeto 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=600" alt="Projeto 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600" alt="Projeto 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600" alt="Projeto 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?w=600" alt="Projeto 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1581078426770-6d336e5de7bf?w=600" alt="Projeto 6">
+            </div>
+            <!-- Duplicadas para loop infinito -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600" alt="Projeto 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=600" alt="Projeto 2">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?w=600" alt="Nossa História"
+                        class="about-image">
+                </div>
+                <div class="about-content">
+                    <h2>Nossa História</h2>
+                    <p>Fundada em 1987, a EEEFM Alzira Ramos tem sido um farol de conhecimento e crescimento na
+                        comunidade.
+                        Desde o início, nossa missão tem sido cultivar mentes curiosas e corações compassivos.</p>
+                    <p>Acreditamos em uma educação que vai além dos livros, incentivando a criatividade, o pensamento
+                        crítico e a colaboração. Nossos valores de respeito, responsabilidade e resiliência guiam cada
+                        passo que damos.</p>
+                    <p>Com uma equipe dedicada de educadores e uma infraestrutura moderna, estamos comprometidos em
+                        preparar nossos alunos para os desafios e oportunidades do futuro. Junte-se a nós nesta jornada
+                        de aprendizado e descoberta!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Social -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Siga Nossas Redes</h2>
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+                <a href="#" class="social-link">i</a>
+                <a href="#" class="social-link">in</a>
+                <a href="#" class="social-link">tw</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Contatos Úteis</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Telefone</h3>
+                    <p><a href="tel:+551155551234" style="color: inherit; text-decoration: none;">+55 (11) 5555-1234</a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:contato@escola.com.br"
+                            style="color: inherit; text-decoration: none;">contato@escola.com.br</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Endereço</h3>
+                    <p>Rua das Flores, 123</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Horários</h3>
+                    <p>Seg-Sex: 8h-18h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 EEEFM Alzira Ramos. Todos os direitos reservados.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#turmas">Turmas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
