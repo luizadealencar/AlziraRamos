@@ -136,7 +136,6 @@ body {
 .hamburger {
     display: flex;
     flex-direction: column;
-    gap: 4px;
 }
 
 .hamburger span {
