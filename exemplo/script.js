@@ -179,3 +179,44 @@ const optimizedScroll = debounce(() => {
         navbar.style.backgroundColor = 'transparent';
     }
 }, 10);
+
+// noticias.js
+const noticias = [
+    {
+        id: 1,
+        titulo: "Olimpíada de Geografia",
+        data: "Publicado em 02/06/2025",
+        imagem: "../img/olimpiada-2.png",
+        conteudo: `
+      Escola Alzira Ramos Lança Projeto para Participar da Olimpíada Brasileira de Geografia, iniciativa do professor Leonardo busca incentivar o aprendizado e destacar a escola no cenário educacional.
+
+A Escola Alzira Ramos acaba de lançar um projeto pedagógico inovador com foco na participação dos alunos na Olimpíada Brasileira de Geografia (OBG). A iniciativa, idealizada pelo professor Leonardo, tem como principal objetivo estimular o interesse dos estudantes pela disciplina e criar uma cultura de valorização do conhecimento científico dentro da instituição.
+
+Segundo o professor, o projeto vai além da preparação para a competição. “A OBG representa um excelente desafio intelectual. Ela propõe questões que exigem raciocínio crítico, domínio de conteúdos atuais e compreensão espacial. É uma oportunidade incrível para os alunos se aprofundarem no estudo da Geografia de forma prática e estimulante”, afirma Leonardo.
+
+A proposta visa formar equipes de alunos interessados em representar a Escola Alzira Ramos na OBG, promovendo uma rotina de estudos e atividades voltadas para temas geográficos contemporâneos, como mudanças climáticas, urbanização, geopolítica e cartografia. A primeira equipe já está em formação e contará com o acompanhamento direto do professor.
+
+Além dos benefícios pedagógicos, o projeto também pretende aumentar o prestígio da escola no cenário educacional local e nacional. “Ao participar de uma competição reconhecida como a OBG, mostramos que nossos alunos estão preparados para enfrentar desafios de alto nível. Isso valoriza a escola como um todo e projeta nosso trabalho para além dos muros da instituição”, destaca o diretor Vagner.
+
+A expectativa é que a iniciativa continue nos próximos anos, com a formação de novas equipes e o aprimoramento constante das estratégias de ensino. A escola também estuda a possibilidade de incluir outras olimpíadas científicas no calendário letivo, ampliando ainda mais as oportunidades acadêmicas para os estudantes.
+
+O projeto marca um passo importante no compromisso da Escola Alzira Ramos com a excelência no ensino e a formação de jovens cidadãos críticos e bem informados.
+    `
+    },
+    {
+        id: 2,
+        titulo: "Passeio Pedagógico à Câmara dos Vereadores",
+        data: "Publicado em 02/06/2025",
+        imagem: "../img/vereadores.jpg",
+        conteudo: `Na segunda-feira, 26 de maio, os alunos da nossa escola tiveram a oportunidade de participar de um passeio pedagógico à Câmara dos Vereadores. O evento é especialmente significativo para os estudantes da eletiva Cidade Acessível, que contaram com a presença de muitos alunos do Atendimento Educacional Especializado (AEE).
+
+O passeio foi dirigido pelo professor Leonardo, que acompanhou os alunos durante toda a visita. O vereador Jadz esteve recebendo os estudantes no local, proporcionando uma experiência única de imersão no ambiente político. Durante a visita, os alunos tiveram a oportunidade de conhecer o espaço interno da câmara, assistir a uma sessão plenária e visitar os gabinetes dos vereadores.
+
+Este passeio promoveu uma compreensão mais profunda do processo legislativo e da importância da participação cidadã, além de proporcionar um momento de aprendizado prático para os alunos, especialmente no contexto da acessibilidade e inclusão. A experiência foi uma excelente oportunidade para os jovens vivenciarem o funcionamento de uma casa legislativa de perto, estimulando o interesse pela política local e o engajamento com os temas que impactam diretamente a comunidade.
+
+Ao conhecer o papel dos vereadores, os alunos também poderão refletir sobre como as decisões políticas influenciam a vida cotidiana e a construção de uma cidade mais acessível e justa para todos.
+
+Ficamos muito animados com esta oportunidade e esperamos que os alunos aproveitem ao máximo essa experiência enriquecedora, que certamente ficará marcada como um momento importante em sua formação cidadã e educacional.
+    `
+    }
+];
