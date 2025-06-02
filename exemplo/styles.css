@@ -897,3 +897,77 @@ button:hover {
     font-size: 14px;
     color: #555;
 }
+
+/* MOBILE - telas até 600px */
+@media (max-width: 600px) {
+
+  /* Container principal */
+  #turma {
+    margin: 20px 10px;
+    padding: 10px;
+  }
+
+  /* Tabela scroll horizontal */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Inputs e botões em 100% largura */
+  input, button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  /* Lista de professores em coluna */
+  .lista-professores {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Cards dos professores ocupam 100% */
+  .professor {
+    width: 100%;
+  }
+
+  /* Navbar - simplificar para mobile */
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav {
+    display: none; /* esconder menu para mobile, será aberto com JS */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-nav.active {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #b80000;
+  }
+}
+
