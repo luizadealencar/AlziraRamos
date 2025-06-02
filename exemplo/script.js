@@ -180,24 +180,6 @@ const optimizedScroll = debounce(() => {
     }
 }, 10);
 
-// Pega o ID da URL
-        const params = new URLSearchParams(window.location.search);
-        const id = parseInt(params.get("id"));
-
-        // Procura a notícia
-        const noticia = noticias.find(n => n.id === id);
-
-        if (noticia) {
-            document.getElementById("titulo").textContent = noticia.titulo;
-            document.getElementById("data").textContent = noticia.data;
-            document.getElementById("imagem").src = noticia.imagem;
-            document.getElementById("imagem").alt = noticia.titulo;
-            document.getElementById("conteudo").innerText = noticia.conteudo;
-        } else {
-            document.getElementById("noticia").innerHTML = "<p>Notícia não encontrada.</p>";
-        }
-
-
 const noticias = [
     {
         id: 1,
