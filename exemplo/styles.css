@@ -535,74 +535,6 @@ footer {
     }
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .navbar-nav {
-        display: none;
-        position: fixed;
-        top: 80px;
-        left: 0;
-        right: 0;
-        background-color: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(8px);
-        flex-direction: column;
-        padding: 2rem;
-        border-radius: 1rem;
-        margin: 1rem;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
-
-    .navbar-nav.active {
-        display: flex;
-    }
-
-    .mobile-menu-toggle {
-        display: block;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-content p {
-        font-size: 1.2rem;
-    }
-
-    .about-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .gallery-item {
-        min-width: 300px;
-    }
-
-    .news-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .stats-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .social-link img {
   width: 40px; /* ou outro tamanho que preferir */
   height: auto;
@@ -899,4 +831,72 @@ button:hover {
 
 #conteudo{
     text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(8px);
+        flex-direction: column;
+        padding: 2rem;
+        border-radius: 1rem;
+        margin: 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav.active {
+        display: flex;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .gallery-item {
+        min-width: 300px;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
 }
