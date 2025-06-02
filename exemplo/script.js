@@ -342,3 +342,9 @@ function excluirAtividade(id) {
     localStorage.setItem(chave, JSON.stringify(atividades));
     atualizarCalendario();
 }
+
+function toggleMobileMenu() {
+  const nav = document.getElementById('navbarNav');
+  nav.classList.toggle('active');
+}
+
