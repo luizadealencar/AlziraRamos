@@ -856,6 +856,9 @@ button:hover {
 
     .mobile-menu-toggle {
         display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 
     .hero-content h1 {
@@ -898,5 +901,19 @@ button:hover {
 
     .contact-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hamburger span{
+        display: block;
+        widht: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: #000;
+    }
+}
+
+@media (min-width: 769px){
+    .mobile-menu-toggle{
+        display: none;
     }
 }
