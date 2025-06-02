@@ -757,7 +757,7 @@ td {
 }
 
 input,
-button,
+.atividades button,
 textarea {
     margin: 10px 5px 20px 0;
     height: 40px;
@@ -767,14 +767,14 @@ textarea {
     border-radius: 4px;
 }
 
-button {
+.atividades button {
     background-color: #b80000;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-button:hover {
+.atividades button:hover {
     background-color: #900000;
 }
 
