@@ -629,7 +629,7 @@ footer {
 }
 
 .membro,
-.turma {
+.turma-index {
   text-align: center;
   width: 200px;
 }
@@ -639,7 +639,7 @@ footer {
 }
 
 .membro img,
-.turma img {
+.turma-index img {
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -648,7 +648,7 @@ footer {
 }
 
 .membro img:hover,
-.turma img:hover {
+.turma-index img:hover {
   transform: scale(1.05);
 }
 
@@ -750,7 +750,7 @@ footer {
   }
 }
 
-main {
+#noticia {
   margin-top: 150px; /* Aumenta o espaço abaixo do header/nav */
   max-width: 800px;
   margin-left: auto;
@@ -778,4 +778,121 @@ h1, h2 {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+.turma{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#turma {
+    max-width: 1100px;
+    margin: 80px auto 40px auto; /* Deixa espaço abaixo da navbar e centraliza */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.turma h2 {
+    color: #b80000;
+    /* vermelho */
+    border-bottom: 2px solid #b80000;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+input,
+button,
+textarea {
+    margin: 10px 5px 20px 0;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #b80000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #900000;
+}
+
+.fc-toolbar-title,
+.fc-col-header-cell-cushion,
+.fc-daygrid-day-number {
+    text-transform: uppercase;
+}
+
+.fc .fc-view-harness {
+    flex-grow: 1;
+    position: relative;
+}
+
+#professores {
+    margin-top: 40px;
+}
+
+.lista-professores {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.professor {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.professor img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.professor h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.professor p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
 }

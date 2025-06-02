@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>2RDC1 - EEEFM Alzira Ramos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../exemplo/#navbarNav" class="navbar-brand">
+                <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
+                    class="navbar-logo">
+                <span class="navbar-title">EEEFM Alzira Ramos</span>
+            </a>
+
+            <ul class="navbar-nav" id="navbarNav">
+                <li><a href="../exemplo/#noticias" class="nav-link">Notícias</a></li>
+                <li><a href="../exemplo/#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="../exemplo/#equipe" class="nav-link">Equipe</a></li>
+                <li><a href="../exemplo/#turmas" class="nav-link">Turmas</a></li>
+                <li><a href="../exemplo/#redes" class="nav-link">Redes Sociais</a></li>
+                <li><a href="../exemplo/#contato" class="nav-link">Contatos</a></li>
+            </ul>
+
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <main id="turma" class="turma">
+        <section>
+            <h2>Horário - 2RDC1</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13:00 - 13:50</td>
+                        <td>PORT</td>
+                        <td>FIS</td>
+                        <td>SERV.WINDOWS E LINUX</td>
+                        <td>HIST</td>
+                        <td>FIS</td>
+                    </tr>
+                    <tr>
+                        <td>13:50 - 14:40</td>
+                        <td>Eletiva</td>
+                        <td>BIO</td>
+                        <td>PV</td>
+                        <td>CULTURA.DIGITAL</td>
+                        <td>PORT</td>
+                    </tr>
+                    <tr>
+                        <td>14:40 - 15:30</td>
+                        <td>ELETIVAS</td>
+                        <td>ARQ.MONT.COMP</td>
+                        <td>INFRA.PRO.J.REDES</td>
+                        <td>SERV.WINDOWS E LINUX</td>
+                        <td>MAT</td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 16:20</td>
+                        <td>EO</td>
+                        <td>CULTURA DIGITAL</td>
+                        <td>BANCO DE DADOS</td>
+                        <td>ARQ.MONT.COMP</td>
+                        <td>ARQ.MONT.COMP</td>
+                    </tr>
+                    <tr>
+                        <td>16:20 - 16:40</td>
+                        <td colspan="5" style="text-align:center">Recreio</td>
+                    </tr>
+                    <tr>
+                        <td>16:40 - 17:30</td>
+                        <td>BIO</td>
+                        <td>INFRA.PRO.J.REDES</td>
+                        <td>GEO</td>
+                        <td>MAT</td>
+                        <td>PORT</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 - 18:20</td>
+                        <td>GEO</td>
+                        <td>BANCO DE DADOS</td>
+                        <td>HIST</td>
+                        <td>MAT</td>
+                        <td>PRAT.EXP</td>
+                    </tr>
+                    <tr>
+                        <td>18:20 - 19:10</td>
+                        <td>MAT</td>
+                        <td>QUI</td>
+                        <td>PORT</td>
+                        <td>INFRA.PRO.J.REDES</td>
+                        <td>QUI</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Calendário de Atividades - 2RDC1</h2>
+            <input type="date" id="dataAtividade" required>
+            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
+            <input type="text" id="professorAtividade" placeholder="Professor" required>
+            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
+            <button onclick="adicionarAtividade()">Adicionar</button>
+            <div id="calendarioReal"></div>
+        </section>
+
+        <section id="professores">
+            <h2>Professores</h2>
+            <div class="lista-professores">
+                <div class="professor">
+                    <img src="..\img\dione.jpg" alt="Dione Jenier Soares" />
+                    <h3>Dione Jenier Soares</h3>
+                    <p>Disciplina: Português</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\andreangelo.jpg" alt="Andreangelo Patuzzo" />
+                    <h3>Andreangelo Patuzzo</h3>
+                    <p>Disciplina: </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\euvideo.jpg" alt="Foto do Professor Euvideo Ferreira Nascimento Neto" />
+                    <h3>Euvideo Ferreira Nascimento Neto</h3>
+                    <p>Disciplina: Banco de Dados, Introdução a Rede de Computadores</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\dayara.jpg" alt="Foto da Professora Dayara Falqueto" />
+                    <h3>Dayara Falqueto</h3>
+                    <p>Disciplina: Geografia</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\carla.jpg" alt="Foto da Professora Carla Sampaio" />
+                    <h3> Carla Sampaio</h3>
+                    <p>Disciplina: Matemática</p>
+                </div>
+
+                <div class="professor">
+                    <img src="..\img\leonardoh.jpeg" alt="Foto do Professor Leonardo Leonardo Faccini Bringer" />
+                    <h3>Leonardo Leonardo Faccini Bringer</h3>
+                    <p>Disciplina: História</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\carlos.jpg" alt="Carlos Pereira" />
+                    <h3>Carlos Pereira</h3>
+                    <p>Disciplina: Física</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\debora.jpg" alt="Debora" />
+                    <h3>Debora</h3>
+                    <p>Disciplina: Química </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\Luana.jpeg" alt="Luana" />
+                    <h3>Luana</h3>
+                    <p>Disciplina: Sociologia </p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\raimunda.jpg" alt="raimunda" />
+                    <h3>Raimunda</h3>
+                    <p>Disciplina: Cultura Digital</p>
+                </div>
+                <div class="professor">
+                    <img src="..\img\denilson.jpg" alt="Denilson" />
+                    <h3>Denilson</h3>
+                    <p>Disciplina: Biologia</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 EEEFM Alzira Ramos. Todos os direitos reservados.</p>
+                <ul class="footer-links">
+                    <li><a href="../exemplo/#navbarNav">Início</a></li>
+                    <li><a href="../exemplo/#noticias">Notícias</a></li>
+                    <li><a href="../exemplo/#projetos">Projetos</a></li>
+                    <li><a href="../exemplo/#equipe">Equipe</a></li>
+                    <li><a href="../exemplo/#turmas">Turmas</a></li>
+                    <li><a href="../exemplo/#redes">Redes Sociais</a></li>
+                    <li><a href="../exemplo/#contato">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="..\js\script.js"></script>
+</body>
+
+</html>
