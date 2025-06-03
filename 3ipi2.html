@@ -2,17 +2,19 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>3IPI2 - EEEFM Alzira Ramos</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site escolar completo com notícias, projetos, equipe, turmas e calendário">
+    <title>3IPI2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="index.html#navbarNav" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
                     class="navbar-logo">
                 <span class="navbar-title">EEEFM Alzira Ramos</span>
@@ -38,7 +40,7 @@
     </nav>
 
     <main id="turma" class="turma">
-        <section>
+        <section class="horario">
             <h2>Horário - 3IPI2</h2>
             <table border="1">
                 <thead>
@@ -115,15 +117,82 @@
                 </tbody>
             </table>
 
+            <div class="horario-mobile">
+                <div class="horario-mobile-day">
+                  <h4>Segunda</h4>
+                  <ul>
+                    <li>13:00 - 13:50 — Arquitetura de Segurança e Projeto de Redes</li>
+                    <li>13:50 - 14:40 — Eletiva</li>
+                    <li>14:40 - 15:30 — Eletiva</li>
+                    <li>15:30 - 16:20 — Estudo Orientado</li>
+                    <li>16:40 - 17:30 — Matemática</li>
+                    <li>17:30 - 18:20 — Biologia</li>
+                    <li>18:20 - 19:10 — Linguagem de Programação Orientado a Objeto</li>
+                  </ul>
+                </div>
+              
+                <div class="horario-mobile-day">
+                  <h4>Terça</h4>
+                  <ul>
+                    <li>13:00 - 13:50 — Programação Web Designer</li>
+                    <li>13:50 - 14:40 — Desenvolvimento de Sistemas</li>
+                    <li>14:40 - 15:30 — Matematica</li>
+                    <li>15:30 - 16:20 — Analise de Projeto de Sistema</li>
+                    <li>16:40 - 17:30 — Linguagem de Programação Orientada a Objetos</li>
+                    <li>17:30 - 18:20 — Projetos Empreendedores</li>
+                    <li>18:20 - 19:10 — Português</li>
+                  </ul>
+                </div>
+              
+                <div class="horario-mobile-day">
+                  <h4>Quarta</h4>
+                  <ul>
+                    <li>13:00 - 13:50 — Programação Web Designer</li>
+                    <li>13:50 - 14:40 — História</li>
+                    <li>14:40 - 15:30 — Desenvolvimento de Games</li>
+                    <li>15:30 - 16:20 — Desenvolvimento de Sistemas</li>
+                    <li>16:40 - 17:30 — Arquitetura, Segurança e Projeto de Redes</li>
+                    <li>17:30 - 18:20 — Linguagem de Programação Orientada a Objetos</li>
+                    <li>18:20 - 19:10 — Português</li>
+                  </ul>
+                </div>
+              
+                <div class="horario-mobile-day">
+                  <h4>Quinta</h4>
+                  <ul>
+                    <li>13:00 - 13:50 — Projeto de Vida</li>
+                    <li>13:50 - 14:40 — Desenvolvimento de Games</li>
+                    <li>14:40 - 15:30 — Desenvolvimento de Sistemas</li>
+                    <li>15:30 - 16:20 — Análise de Projeto de Sistema</li>
+                    <li>16:40 - 17:30 — Arquitetura, Segurança e Projeto de Redes</li>
+                    <li>17:30 - 18:20 — Biologia</li>
+                    <li>18:20 - 19:10 — Geografia</li>
+                  </ul>
+                </div>
+              
+                <div class="horario-mobile-day">
+                  <h4>Sexta</h4>
+                  <ul>
+                    <li>13:00 - 13:50 — Português</li>
+                    <li>13:50 - 14:40 — Praticas Experimental</li>
+                    <li>14:40 - 15:30 — Geografia</li>
+                    <li>15:30 - 16:20 — Matematica</li>
+                    <li>16:40 - 17:30 — Projetos Empreendedores</li>
+                    <li>17:30 - 18:20 — História</li>
+                    <li>18:20 - 19:10 — Projeto de Vida</li>
+                  </ul>
+                </div>
+              </div>              
         </section>
 
         <section class="atividades">
-            <h2>Calendário de Atividades - 3IPI2</h2>
+            <h2>Calendário de Atividades - 1ESP</h2>
             <input type="date" id="dataAtividade" required>
             <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
             <input type="text" id="professorAtividade" placeholder="Professor" required>
             <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
             <button onclick="adicionarAtividade()">Adicionar</button>
+            <div id="listaAtividadesMobile"></div>
             <div id="calendarioReal"></div>
         </section>
 
@@ -193,12 +262,14 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <p>© 2025 EEEFM Alzira Ramos. Todos os direitos reservados.</p>
                 <ul class="footer-links">
-                    <li><a href="index.html#navbarNav">Início</a></li>
+                    <li><a href="index.html#">Início</a></li>
                     <li><a href="index.html#noticias">Notícias</a></li>
                     <li><a href="index.html#projetos">Projetos</a></li>
                     <li><a href="index.html#equipe">Equipe</a></li>
@@ -210,6 +281,24 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // Pega o ID da URL
+        const params = new URLSearchParams(window.location.search);
+        const id = parseInt(params.get("id"));
+
+        // Procura a notícia
+        const noticia = noticias.find(n => n.id === id);
+
+        if (noticia) {
+            document.getElementById("titulo").textContent = noticia.titulo;
+            document.getElementById("data").textContent = noticia.data;
+            document.getElementById("imagem").src = noticia.imagem;
+            document.getElementById("imagem").alt = noticia.titulo;
+            document.getElementById("conteudo").innerText = noticia.conteudo;
+        } else {
+            document.getElementById("noticia").innerHTML = "<p>Notícia não encontrada.</p>";
+        }
+    </script>
 </body>
 
 </html>
