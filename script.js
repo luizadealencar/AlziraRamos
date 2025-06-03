@@ -217,6 +217,34 @@ Ao conhecer o papel dos vereadores, os alunos também poderão refletir sobre co
 
 Ficamos muito animados com esta oportunidade e esperamos que os alunos aproveitem ao máximo essa experiência enriquecedora, que certamente ficará marcada como um momento importante em sua formação cidadã e educacional.
     `
+    },
+    {
+        id: 3,
+        titulo: "Lançamento do Clube de Xadrez",
+        data: "Publicado em 03/06/2025",
+        imagem: "../img/vereadores.jpg",
+        conteudo: `A Escola Alzira Ramos inaugura seu novo Clube de Xadrez, com o objetivo de estimular o raciocínio lógico, a concentração e a estratégia entre os alunos. O clube proporciona um espaço para que os estudantes desenvolvam habilidades intelectuais e aprendam a competir de forma saudável. Para isso, a escola adquiriu relógios oficiais de xadrez, que serão usados nas partidas e treinamentos, garantindo mais profissionalismo e dinamismo às atividades. `
+    },
+    {
+        id: 4,
+        titulo: "Formação do time de vôlei feminino",
+        data: "Publicado em 03/06/2025",
+        imagem: "../img/vereadores.jpg",
+        conteudo: `A escola também comemora a formação da sua primeira equipe feminina de vôlei. As alunas já estão em fase de treinamento, sob a supervisão da professora de educação física Michely, preparando-se para participar das competições escolares. Essa iniciativa valoriza a inclusão e o incentivo à prática esportiva entre as meninas, promovendo disciplina, trabalho em equipe e fortalecimento do espírito esportivo.`
+    },
+    {
+        id: 5,
+        titulo: "Melhorias na Quadra Esportiva",
+        data: "Publicado em 03/06/2025",
+        imagem: "../img/vereadores.jpg",
+        conteudo: `Pequenos reparos foram realizados na quadra da escola para melhorar o ambiente de prática esportiva. Além disso, foi feita a pintura do lado de fora da escola e houve reorganização do espaço, que agora está mais seguro e confortável para os alunos. Essas melhorias contribuem para um ambiente mais agradável, facilitando o desenvolvimento de diferentes modalidades esportivas e incentivando a participação dos estudantes.`
+    },
+    {
+        id: 6,
+        titulo: "Compromisso com o Desenvolvimento Integral",
+        data: "Publicado em 03/06/2025",
+        imagem: "../img/vereadores.jpg",
+        conteudo: `Com essas ações, a Escola Alzira Ramos reforça seu compromisso com a formação completa dos alunos. Ao investir tanto no desenvolvimento intelectual quanto no físico, a escola promove um ambiente acolhedor e dinâmico. O clube de xadrez, a equipe feminina de vôlei e as melhorias na quadra esportiva são exemplos de como a escola prepara seus estudantes para os desafios futuros, valorizando o aprendizado, o esporte e a inclusão. `
     }
 ];
 
