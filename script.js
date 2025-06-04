@@ -186,8 +186,7 @@ const noticias = [
         titulo: "Olimpíada de Geografia",
         data: "Publicado em 02/06/2025",
         imagem: "../img/olimpiada-2.png",
-        conteudo: `
-      Escola Alzira Ramos Lança Projeto para Participar da Olimpíada Brasileira de Geografia, iniciativa do professor Leonardo busca incentivar o aprendizado e destacar a escola no cenário educacional.
+        conteudo: `Escola Alzira Ramos Lança Projeto para Participar da Olimpíada Brasileira de Geografia, iniciativa do professor Leonardo busca incentivar o aprendizado e destacar a escola no cenário educacional.
 
 A Escola Alzira Ramos acaba de lançar um projeto pedagógico inovador com foco na participação dos alunos na Olimpíada Brasileira de Geografia (OBG). A iniciativa, idealizada pelo professor Leonardo, tem como principal objetivo estimular o interesse dos estudantes pela disciplina e criar uma cultura de valorização do conhecimento científico dentro da instituição.
 
@@ -215,36 +214,55 @@ Este passeio promoveu uma compreensão mais profunda do processo legislativo e d
 
 Ao conhecer o papel dos vereadores, os alunos também poderão refletir sobre como as decisões políticas influenciam a vida cotidiana e a construção de uma cidade mais acessível e justa para todos.
 
-Ficamos muito animados com esta oportunidade e esperamos que os alunos aproveitem ao máximo essa experiência enriquecedora, que certamente ficará marcada como um momento importante em sua formação cidadã e educacional.
-    `
+Ficamos muito animados com esta oportunidade e esperamos que os alunos aproveitem ao máximo essa experiência enriquecedora, que certamente ficará marcada como um momento importante em sua formação cidadã e educacional.`
     },
     {
         id: 3,
         titulo: "Lançamento do Clube de Xadrez",
         data: "Publicado em 03/06/2025",
-        imagem: "../img/vereadores.jpg",
-        conteudo: `A Escola Alzira Ramos inaugura seu novo Clube de Xadrez, com o objetivo de estimular o raciocínio lógico, a concentração e a estratégia entre os alunos. O clube proporciona um espaço para que os estudantes desenvolvam habilidades intelectuais e aprendam a competir de forma saudável. Para isso, a escola adquiriu relógios oficiais de xadrez, que serão usados nas partidas e treinamentos, garantindo mais profissionalismo e dinamismo às atividades. `
+        imagem: "../img/xadrez.jpg",
+        conteudo: `A Escola Alzira Ramos inaugura seu novo Clube de Xadrez, com o objetivo de estimular o raciocínio lógico, a concentração e a estratégia entre os alunos. O clube proporciona um espaço para que os estudantes desenvolvam habilidades intelectuais e aprendam a competir de forma saudável. Para isso, a escola adquiriu relógios oficiais de xadrez, que serão usados nas partidas e treinamentos, garantindo mais profissionalismo e dinamismo às atividades.`
     },
     {
         id: 4,
         titulo: "Formação do time de vôlei feminino",
         data: "Publicado em 03/06/2025",
-        imagem: "../img/vereadores.jpg",
+        imagem: "../img/volei.jpg",
         conteudo: `A escola também comemora a formação da sua primeira equipe feminina de vôlei. As alunas já estão em fase de treinamento, sob a supervisão da professora de educação física Michely, preparando-se para participar das competições escolares. Essa iniciativa valoriza a inclusão e o incentivo à prática esportiva entre as meninas, promovendo disciplina, trabalho em equipe e fortalecimento do espírito esportivo.`
     },
     {
         id: 5,
         titulo: "Melhorias na Quadra Esportiva",
         data: "Publicado em 03/06/2025",
-        imagem: "../img/vereadores.jpg",
+        imagem: "../img/quadra.jpg",
         conteudo: `Pequenos reparos foram realizados na quadra da escola para melhorar o ambiente de prática esportiva. Além disso, foi feita a pintura do lado de fora da escola e houve reorganização do espaço, que agora está mais seguro e confortável para os alunos. Essas melhorias contribuem para um ambiente mais agradável, facilitando o desenvolvimento de diferentes modalidades esportivas e incentivando a participação dos estudantes.`
     },
     {
         id: 6,
-        titulo: "Compromisso com o Desenvolvimento Integral",
+        titulo: "Festa Cultural",
         data: "Publicado em 03/06/2025",
-        imagem: "../img/vereadores.jpg",
-        conteudo: `Com essas ações, a Escola Alzira Ramos reforça seu compromisso com a formação completa dos alunos. Ao investir tanto no desenvolvimento intelectual quanto no físico, a escola promove um ambiente acolhedor e dinâmico. O clube de xadrez, a equipe feminina de vôlei e as melhorias na quadra esportiva são exemplos de como a escola prepara seus estudantes para os desafios futuros, valorizando o aprendizado, o esporte e a inclusão. `
+        imagem: "../img/quadrilha.jpg",
+        conteudo: `A Escola Alzira Ramos já está em clima de festa! Com muita animação, tradição e espírito de coletividade, a escola anuncia a realização de sua tradicional Festa Junina, que neste ano será ainda mais especial. Marcando o encerramento do semestre letivo antes das férias escolares, o evento será uma grande Festa Cultural Junina e estará aberto à participação de toda a comunidade.
+
+A festividade está sendo organizada com muito carinho por professores, funcionários, alunos e suas famílias, e promete ser um momento inesquecível de integração e celebração. Além de trazer os elementos clássicos da cultura junina, como comidas típicas, danças, brincadeiras e decoração caipira, a festa também contará com apresentações culturais preparadas pelos próprios estudantes ao longo das últimas semanas.
+
+A escola como espaço de cultura e tradição
+
+Mais do que uma comemoração, a Festa Junina da Escola Alzira Ramos é uma oportunidade de valorizar as tradições populares brasileiras, integrando o currículo pedagógico à vivência cultural. Cada turma está preparando sua contribuição especial para o evento, que pode incluir desde quadrilhas, peças teatrais temáticas, músicas regionais até exposições artísticas sobre o folclore e os costumes juninos.
+
+A coordenadora pedagógica destaca que a festa é também um momento de aprendizagem: “Trabalhamos com os alunos o significado histórico e cultural das festas juninas. É uma forma lúdica e afetiva de fortalecer o sentimento de pertencimento e a valorização da cultura popular”.
+
+Aberta à comunidade
+
+Neste ano, a escola decidiu abrir os portões para a comunidade do entorno, convidando familiares, vizinhos e moradores da região a participarem do evento. “Queremos que todos se sintam acolhidos. A escola é um espaço coletivo e democrático, e a festa é uma maneira de aproximar ainda mais a comunidade da vida escolar”, afirma o diretor Vagner.
+
+Durante o evento, os visitantes poderão desfrutar de barraquinhas com comidas típicas como canjica, milho verde, pipoca, bolos, paçoca, caldos e doces diversos. Também haverá brincadeiras tradicionais como pescaria, boca do palhaço e correio elegante. E, claro, não vai faltar a tão esperada quadrilha junina, com apresentações dos alunos e até participação aberta para o público dançar junto.
+
+Um momento para celebrar e agradecer
+
+A Festa Cultural Junina simboliza também um momento de confraternização e gratidão. É a celebração do esforço coletivo de toda a comunidade escolar durante o primeiro semestre do ano. Alunos, professores e famílias se uniram para tornar esse momento possível, mostrando mais uma vez a força da colaboração e do trabalho em equipe.
+
+Todos estão convidados a vestir seu traje caipira, trazer o sorriso no rosto e se juntar a essa grande festa. A Escola Alzira Ramos espera por você com muita alegria, música e tradição!`
     }
 ];
 
@@ -427,3 +445,50 @@ function exibirAtividadesMobile() {
 
 window.addEventListener('resize', exibirAtividadesMobile);
 window.addEventListener('load', exibirAtividadesMobile);
+
+const projetos = {
+    "professor1": {
+        nome: "Prof. Leonardo",
+        titulo: "Geografia na Prática – Olimpíada Brasileira de Geografia",
+        conteudo: `
+          O projeto visa estimular o interesse pela Geografia por meio da participação na OBG.
+          Os alunos formarão equipes e estudarão temas como mudanças climáticas, urbanização,
+          geopolítica e cartografia, com orientação do professor Leonardo. A proposta é integrar
+          o conhecimento científico com desafios intelectuais reais.
+        `
+    },
+    "professoraMichely": {
+        nome: "Profª Michely",
+        titulo: "Esporte e Inclusão – Formação do Time de Vôlei Feminino",
+        conteudo: `
+          O projeto tem como objetivo incentivar a participação das alunas na prática esportiva,
+          com foco na formação da equipe feminina de vôlei da escola. Através de treinamentos e
+          trabalho em equipe, busca-se promover disciplina, saúde e autoestima.
+        `
+    },
+    "professorCarlos": {
+        nome: "Prof. Carlos",
+        titulo: "Matemática no Cotidiano – Clube de Xadrez",
+        conteudo: `
+          O Clube de Xadrez busca desenvolver habilidades como lógica, estratégia e concentração.
+          As atividades incluem treinos regulares e uso de relógios oficiais. O projeto propõe
+          a integração entre raciocínio lógico e competição saudável.
+        `
+    }
+};
+
+// Obter ID do projeto selecionado (salvo no localStorage, por exemplo ao clicar no index)
+const projetoSelecionado = localStorage.getItem("projetoSelecionado");
+
+// Pegar os dados
+const projeto = projetos[projetoSelecionado];
+
+// Preencher HTML
+if (projeto) {
+    document.getElementById("tituloProjeto").textContent = projeto.titulo;
+    document.getElementById("nomeProfessor").textContent = "Professor(a): " + projeto.nome;
+    document.getElementById("conteudoProjeto").innerHTML = projeto.conteudo;
+} else {
+    document.getElementById("tituloProjeto").textContent = "Projeto não encontrado";
+    document.getElementById("conteudoProjeto").textContent = "Verifique se a seleção foi feita corretamente no index.html.";
+}
