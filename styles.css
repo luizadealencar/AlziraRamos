@@ -453,7 +453,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
 }
 
 .social-link {
@@ -553,7 +552,6 @@ footer {
 
 .social-link img {
     width: 40px;
-    /* ou outro tamanho que preferir */
     height: auto;
 }
 
@@ -561,7 +559,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 10px;
 }
 
 #equipe,
