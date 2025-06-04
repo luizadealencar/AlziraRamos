@@ -656,33 +656,31 @@ footer {
     width: 100%;
     overflow: hidden;
     height: 50px;
-    margin-top: 40px;
     background: #003366;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .frase {
-    position: absolute;
+    display: flex;
     white-space: nowrap;
-    display: inline-block;
     animation: loopScroll 15s linear infinite;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-left: 100%;
 }
 
-.frase.clone {
-    left: 100%;
-    animation-delay: 7.5s;
+.frase span {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem; /* ou menos, teste com 1rem */
 }
 
 @keyframes loopScroll {
     0% {
         transform: translateX(0%);
     }
-
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-33.33%);
     }
 }
 
