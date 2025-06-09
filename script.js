@@ -316,251 +316,303 @@ const projetos = {
         nome: "Profª Débora Moreira",
         titulo: "Tabela Periódica com Experimentos Químicos Interativos",
         conteudo: `
-          Turma e Modalidade de ensino:
-          1º anos - Ensino Médio
+          <h3>Turma e Modalidade de Ensino</h3>
+  <p><strong>1º anos - Ensino Médio</strong></p>
 
-          Objetivos de conhecimento abordados:
-Através das aulas planejadas no formato interativo busca oferecer aos estudantes um entendimento mais prático e aplicado dos conceitos químicos fundamentais.
+  <h3>Objetivos de Conhecimento Abordados</h3>
+  <p>Através das aulas planejadas no formato interativo, busca-se oferecer aos estudantes um entendimento mais prático e aplicado dos conceitos químicos fundamentais.</p>
 
-          Objetivo da prática:
-Compreender tendências e propriedades da Tabela Periódica. Aplicar tecnologias digitais no processo de aprendizagem.
+  <h3>Objetivo da Prática</h3>
+  <p>Compreender tendências e propriedades da Tabela Periódica. Aplicar tecnologias digitais no processo de aprendizagem.</p>
 
-          Metodologia inovadora para o desenvolvimento da prática:
-Rotação por estações, aprendizado colaborativo e uso de tecnologias digitais.
+  <h3>Metodologia Inovadora para o Desenvolvimento da Prática</h3>
+  <ul>
+    <li>Rotação por estações</li>
+    <li>Aprendizado colaborativo</li>
+    <li>Uso de tecnologias digitais</li>
+  </ul>
 
-Recurso(s) utilizado(s):
-Aplicativos de anotações digitais;
-Vídeos e artigos sobre a Tabela Periódica;
-Intérpretes de LIBRAS para apoio em sala;
-Chromebook;
-Internet.
+  <h3>Recurso(s) Utilizado(s)</h3>
+  <ul>
+    <li>Aplicativos de anotações digitais</li>
+    <li>Vídeos e artigos sobre a Tabela Periódica</li>
+    <li>Intérpretes de LIBRAS para apoio em sala</li>
+    <li>Chromebook</li>
+    <li>Internet</li>
+  </ul>
 
-Expectativas de aprendizagem:
-Combinação de sala de aula invertida, o conteúdo visa expandir a compreensão teórica para contextos do cotidiano, promovendo uma educação que vá além do conhecimento em sala de aula, através de ferramentas digitais, como quizzes e aplicativos, espera-se que os alunos desenvolvam não apenas conhecimento químico, mas também competências digitais essenciais para o século XXI.
+  <h3>Expectativas de Aprendizagem</h3>
+  <p>Combinando a sala de aula invertida, o conteúdo visa expandir a compreensão teórica para contextos do cotidiano. Promove-se uma educação que vá além do conhecimento em sala de aula, e, por meio de ferramentas digitais como quizzes e aplicativos, espera-se que os alunos desenvolvam não apenas conhecimento químico, mas também competências digitais essenciais para o século XXI.</p>
 
-Descreva a prática:
-Apresentação da Atividade e Preparação Inicial
-Introdução à Tabela Periódica através de estudos individuais, ao seu início apresentando o objetivo geral que é explorar a Tabela Periódica com o auxílio de tecnologia de modo interativo e explicando o conceito de sala de aula invertida.
+  <h3>Descrição da Prática</h3>
 
-Atividade por rotações
-O objetivo é fazer com que os alunos explorem os diferentes conceitos e aspectos da tabela periódica divididos por estações, momento destinado para levantamento das informações de acordo com cada estação.
+  <h4>1. Apresentação da Atividade e Preparação Inicial</h4>
+  <p>Introdução à Tabela Periódica através de estudos individuais, apresentando o objetivo geral de explorar a Tabela Periódica com o auxílio de tecnologia de modo interativo, explicando o conceito de sala de aula invertida.</p>
 
-Visitação das Estações
-Cada grupo irá apresentar as suas descobertas e experimentos realizados nas estações:
-Estação 1: Conhecendo os elementos através da tela interativa e do PTable.
-Estação 2: Experimento visual e experimentos através da interatividade realizando simulações para demonstração reações químicas.
-Estação 3: Criando um modelo utilizando o Tinkercad criando modelos tridimensionais de moléculas.
-Estação 4: Desafio da Tabela Periódica através dos quizzes interativos foi testado o conhecimento dos alunos referentes à organização dos elementos e suas propriedades e aplicações.
+  <h4>2. Atividade por Rotações</h4>
+  <p>O objetivo é fazer com que os alunos explorem os diferentes conceitos e aspectos da Tabela Periódica divididos por estações, momento destinado ao levantamento de informações de acordo com cada estação.</p>
 
-Discussão/Conclusão:
-Os alunos fizeram uma discussão sobre as relações entre as propriedades dos elementos e os seus comportamentos durante as simulações e experimentos visuais.
+  <h4>3. Visitação das Estações</h4>
+  <ul>
+    <li><strong>Estação 1:</strong> Conhecendo os elementos através da tela interativa e do PTable.</li>
+    <li><strong>Estação 2:</strong> Experimento visual e simulações interativas para demonstração de reações químicas.</li>
+    <li><strong>Estação 3:</strong> Criando modelos tridimensionais de moléculas utilizando o Tinkercad.</li>
+    <li><strong>Estação 4:</strong> Desafio da Tabela Periódica com quizzes interativos para testar o conhecimento sobre organização dos elementos, propriedades e aplicações.</li>
+  </ul>
+
+  <h4>4. Discussão/Conclusão</h4>
+  <p>Os alunos participaram de uma discussão sobre as relações entre as propriedades dos elementos e seus comportamentos durante as simulações e experimentos visuais.</p>
         `
     },
     "professorWladimir": {
         nome: "Prof Wladimir",
         titulo: "Aula de Língua Portuguesa – Desvendando a Morfossintaxe",
-        conteudo: `Turma e modalidade de ensino:
-9º anos – Ensino Fundamental
+        conteudo: `<h3>Turma e Modalidade de Ensino</h3>
+  <p><strong>9º anos – Ensino Fundamental</strong></p>
 
-Objetos de conhecimento abordados:
-Material estruturado Rotina Pedagógica Morfossintaxe.
+  <h3>Objetos de Conhecimento Abordados</h3>
+  <p>Material estruturado, Rotina Pedagógica, Morfossintaxe.</p>
 
-Objetivo da prática:
-Criar jogos através da cultura maker, como revisão para a aula de Língua Portuguesa focando na Morfossintaxe com intuito de tornar a aprendizagem mais dinâmica e divertida, os jogos ajudarão a fixar os conteúdos de forma eficaz.
+  <h3>Objetivo da Prática</h3>
+  <p>Criar jogos através da cultura maker como revisão para a aula de Língua Portuguesa, focando na Morfossintaxe. O intuito é tornar a aprendizagem mais dinâmica e divertida, facilitando a fixação dos conteúdos de forma eficaz.</p>
 
-Metodologia inovadora para o desenvolvimento da prática:
-Aula expositiva dialogada; Ensino Híbrido; Aprendizagem entre times; Cultura Maker.
-Recurso(s) utilizado(s): Tela Interativa – Classcraft – Chromebook – Plataforma online Quizizz – Canva – IA Lumen 5.
+  <h3>Metodologia Inovadora para o Desenvolvimento da Prática</h3>
+  <ul>
+    <li>Aula expositiva dialogada</li>
+    <li>Ensino Híbrido</li>
+    <li>Aprendizagem entre times</li>
+    <li>Cultura Maker</li>
+  </ul>
 
-Expectativas de aprendizagem:
-Relacionar as alterações morfológicas com a função sintática das palavras e entender como essas mudanças impactam o significado das orações.
+  <h3>Recurso(s) Utilizado(s)</h3>
+  <ul>
+    <li>Tela Interativa</li>
+    <li>Classcraft</li>
+    <li>Chromebook</li>
+    <li>Plataforma online Quizizz</li>
+    <li>Canva</li>
+    <li>IA Lumen 5</li>
+  </ul>
 
-Descreva a prática em 05 etapas.
-Quiz Interativo – Funções Sintáticas com Tecnologia (Cultura Maker Digital):
-Através das plataformas digitais para criar quizzes interativos os alunos irão criar quizzes personalizados com questões sobre funções sintáticas (sujeito, predicado, objetos, adjuntos, etc.).
+  <h3>Expectativas de Aprendizagem</h3>
+  <p>Relacionar as alterações morfológicas com a função sintática das palavras e entender como essas mudanças impactam o significado das orações.</p>
 
-Construção de Sentenças com Materiais Físicos (Cultura Maker Analógica):
-Momento destinado para a criação e organização de frases, que ajudarão a visualizarem as funções sintáticas de forma mais concreta onde cada cartão representa um termo sintático: sujeito, verbo, objeto, adjunto.
+  <h3>Descrição da Prática em 05 Etapas</h3>
 
-Montagem de cartões sintáticos:
-Nessa etapa cada estudante criará um “cartão sintático” para representar uma função, escrevendo a definição com exemplo de uso através da ferramenta digital Canva.
+  <h4>1. Quiz Interativo – Funções Sintáticas com Tecnologia (Cultura Maker Digital)</h4>
+  <p>Utilizando plataformas digitais, os alunos criarão quizzes personalizados com questões sobre funções sintáticas (sujeito, predicado, objetos, adjuntos, etc.).</p>
 
-Estação Interativa de Funções Sintáticas:
-A esta altura os estudantes farão em torno da escola algumas estações de aprendizagem, estação do sujeito e predicado, estação da análise sintática com quizzes nas quais apresentam diferentes aspectos da morfossintaxe de forma prática.
+  <h4>2. Construção de Sentenças com Materiais Físicos (Cultura Maker Analógica)</h4>
+  <p>Momento destinado à criação e organização de frases. Cada cartão representará um termo sintático, como sujeito, verbo, objeto e adjunto, ajudando na visualização concreta das funções.</p>
 
-Documentação do Processo:
-Os estudantes realizaram com auxílio da inteligência artificial Lumen 5, mostrando todo o processo de criação e de exposição, desde as reuniões iniciais até a montagem final, feito isso eles exibiram o trabalho para outros alunos.
+  <h4>3. Montagem de Cartões Sintáticos</h4>
+  <p>Cada estudante criará um “cartão sintático” representando uma função, com definição e exemplo de uso. A atividade será feita usando o Canva.</p>
+
+  <h4>4. Estação Interativa de Funções Sintáticas</h4>
+  <p>Serão organizadas estações de aprendizagem pela escola: estação do sujeito e predicado, estação da análise sintática com quizzes, entre outras. Cada estação apresentará aspectos da morfossintaxe de forma prática.</p>
+
+  <h4>5. Documentação do Processo</h4>
+  <p>Com auxílio da inteligência artificial Lumen 5, os alunos registrarão todo o processo, desde as reuniões iniciais até a exposição final, apresentando o trabalho para outros estudantes.</p>
         `
     },
     "professorGraziani": {
         nome: "Prof. Graziani Gatti",
         titulo: "A Transformação do Capitalismo: Da Era Industrial à Sociedade Digital e a Revolução do Trabalho",
-        conteudo: `Turma e modalidade de ensino:
-9º anos - Ensino Fundamental.
+        conteudo: `
+    <h3>Turma e modalidade de ensino</h3>
+    <p><strong>9º anos – Ensino Fundamental</strong></p>
 
-Objetos de conhecimento abordados:
-Contextualizar as revoluções industriais e a transição do capitalismo industrial para o capitalismo informacional.
+    <h3>Objetos de conhecimento abordados</h3>
+    <p>Contextualizar as revoluções industriais e a transição do capitalismo industrial para o capitalismo informacional.</p>
 
-Objetivo da prática:
-Analisar e compreender as transformações econômicas, sociais e trabalhistas provocadas pelas revoluções industriais, com ênfase na Indústria 4.0, inteligência artificial e a uberização do trabalho.
+    <h3>Objetivo da prática</h3>
+    <p>Analisar e compreender as transformações econômicas, sociais e trabalhistas provocadas pelas revoluções industriais, com ênfase na Indústria 4.0, inteligência artificial e a uberização do trabalho.</p>
 
-Metodologia inovadora para o desenvolvimento da prática:
-Aula expositiva dialogada; Aprendizagem Colaborativa; Aprendizagem baseada em jogos.
-Recurso(s) utilizado(s): Tela interativa com auxílio do professor virtual I A, Internet e Chromebooks.
+    <h3>Metodologia</h3>
+    <ul>
+      <li>Aula expositiva dialogada</li>
+      <li>Aprendizagem colaborativa</li>
+      <li>Aprendizagem baseada em jogos</li>
+    </ul>
 
-Expectativas de aprendizagem:
-Proporcionar aos alunos uma compreensão sólida sobre as principais mudanças no cenário econômico e tecnológico atual, além de desenvolver suas habilidades de análise crítica e reflexão sobre as tendências futuras.
+    <h3>Recursos utilizados</h3>
+    <ul>
+      <li>Tela interativa</li>
+      <li>IA</li>
+      <li>Internet</li>
+      <li>Chromebooks</li>
+    </ul>
 
-Descreva a prática em 05 etapas
-1. Compreensão das Revoluções Industriais e suas Consequências:
-Os alunos devem ser capazes de identificar as principais características e impactos das 1ª, 2ª e 3ª revoluções industriais, entendendo a transição para a 4ª revolução industrial e seu impacto no mercado de trabalho e nas estruturas econômicas.
+    <h3>Expectativas de aprendizagem</h3>
+    <p>Proporcionar aos alunos uma compreensão sólida sobre as principais mudanças no cenário econômico e tecnológico atual, além de desenvolver suas habilidades de análise crítica e reflexão sobre as tendências futuras.</p>
 
-2. Capacidade de Analisar a Indústria 4.0 e as Tecnologias Emergentes:
-Explicar o conceito de Indústria 4.0, com ênfase em tecnologias como inteligência artificial, Internet das Coisas (IoT), automação e big data, e entender como essas tecnologias estão moldando o futuro da produção e dos negócios.
-
-3. Reflexão Crítica sobre o Capitalismo Informacional:
-Analisar o conceito de capitalismo informacional e como ele difere do capitalismo industrial, acreditasse que eles possam entender como a informação e o conhecimento se tornaram ativos fundamentais na economia moderna.
-
-4. Educação Mais Personalizada e Acessível:
-Eles aprenderão a organizar seu próprio tempo de maneira eficaz, estabelecendo metas de aprendizado pessoais e buscando o equilíbrio entre aprender rápido em tópicos que dominam e dedicar mais tempo aos desafios.
-
-5. Customização de Conteúdo ao Estilo de Aprendizado:
-Os estudantes terão a oportunidade de identificar seu estilo de aprendizado, o que lhes permitirá escolher as estratégias mais eficazes para seu desenvolvimento.
+    <h3>Etapas da prática</h3>
+    <ol>
+      <li><strong>Compreensão das Revoluções Industriais e suas Consequências:</strong> Os alunos devem ser capazes de identificar as principais características e impactos das 1ª, 2ª e 3ª revoluções industriais, entendendo a transição para a 4ª revolução industrial e seu impacto no mercado de trabalho e nas estruturas econômicas.</li>
+      <li><strong>Capacidade de Analisar a Indústria 4.0 e as Tecnologias Emergentes:</strong> Explicar o conceito de Indústria 4.0, com ênfase em tecnologias como inteligência artificial, Internet das Coisas (IoT), automação e big data, e entender como essas tecnologias estão moldando o futuro da produção e dos negócios.</li>
+      <li><strong>Reflexão Crítica sobre o Capitalismo Informacional:</strong> Analisar o conceito de capitalismo informacional e como ele difere do capitalismo industrial, acreditasse que eles possam entender como a informação e o conhecimento se tornaram ativos fundamentais na economia moderna.</li>
+      <li><strong>Educação Mais Personalizada e Acessível:</strong> Eles aprenderão a organizar seu próprio tempo de maneira eficaz, estabelecendo metas de aprendizado pessoais e buscando o equilíbrio entre aprender rápido em tópicos que dominam e dedicar mais tempo aos desafios.</li>
+      <li><strong>Customização de Conteúdo ao Estilo de Aprendizado:</strong> Os estudantes terão a oportunidade de identificar seu estilo de aprendizado, o que lhes permitirá escolher as estratégias mais eficazes para seu desenvolvimento.</li>
+    </ol>
         `
     },
     "professoraDayara": {
         nome: "Profª Dayara Falqueto",
         titulo: "Estudo Orientado – Gamificação como recurso de revisão de objetos de conhecimento",
-        conteudo: `Turma e modalidade de ensino:
-1ª série - Ensino Médio.
+        conteudo: `<h3>Turma e modalidade de ensino</h3>
+  <p><strong>1ª séries - Ensino Médio</strong></p>
 
-Objetos de conhecimento abordados:
-Estratégias e técnicas de estudo que auxiliem no aprendizado.
+  <h3>Objetos de conhecimento abordados</h3>
+  <p>Estratégias e técnicas de estudo que auxiliem no aprendizado.</p>
 
-Objetivo da prática:
-Desenvolver a capacidade do aluno de aprender de forma autônoma, incentivando a responsabilidade e o controle sobre seu próprio aprendizado por meio de técnicas e estratégias de estudo.
+  <h3>Objetivo da prática</h3>
+  <p>Desenvolver a capacidade do aluno de aprender de forma autônoma, incentivando a responsabilidade e o controle sobre seu próprio aprendizado por meio de técnicas e estratégias de estudo.</p>
 
-Metodologia inovadora para o desenvolvimento da prática:
-Gamificação; Ensino Maker.
-Recurso(s) utilizado(s):
-Tela interativa, App Kahoot, Internet e Laboratório de informática.
+  <h3>Metodologia inovadora para o desenvolvimento da prática</h3>
+  <ul>
+    <li>Gamificação</li>
+    <li>Ensino Maker</li>
+  </ul>
 
-Expectativas de aprendizagem:
-Compreender a gamificação como estratégia de revisão de conteúdo. Além de conhecer diferentes técnicas e estratégias de ensino com foco em atender as necessidades individuais de cada estudante, tornando o aprendizado mais eficaz e personalizado.
+  <h3>Recurso(s) utilizado(s)</h3>
+  <p>Tela interativa, App Kahoot, Internet e Laboratório de informática.</p>
 
-Descreva a prática em 05 etapas
-1. Conhecendo a técnica VARK:
-Aula expositiva dialogada a respeito da técnica VARK (visual, auditivo, leitura/escrita e cinestésico), enfatizando os benefícios e características através da tela interativa.
+  <h3>Expectativas de aprendizagem</h3>
+  <p>Compreender a gamificação como estratégia de revisão de conteúdo. Além de conhecer diferentes técnicas e estratégias de ensino com foco em atender as necessidades individuais de cada estudante, tornando o aprendizado mais eficaz e personalizado.</p>
 
-2. Aplicando a técnica ao perfil:
-Preenchimento do perfil de estudo individualizado de cada estudante.
-
-3. Gamificação:
-Aplicação do Kahoot a respeito dos conceitos e estilos de aprendizagem trabalhados nas aulas anteriores.
-
-4. Feedback:
-Roda de conversa a respeito dos resultados gerados pelo relatório do Kahoot, dificuldades e potencialidades do uso da gamificação como objeto de revisão de conceitos.
-
-5. Trabalho em equipe:
-Divisão dos grupos de trabalho e sorteio de objetos de conhecimento para a produção de Kahoots como ferramenta de revisão e consolidação de conteúdos.
+  <h3>Etapas da prática</h3>
+  <ol>
+    <li>
+      <strong>Conhecendo a técnica VARK:</strong> Aula expositiva dialogada a respeito da técnica VARK (visual, auditivo, leitura/escrita e cinestésico), enfatizando os benefícios e características através da tela interativa.
+    </li>
+    <li>
+      <strong>Aplicando a técnica ao perfil:</strong> Preenchimento do perfil de estudo individualizado de cada estudante.
+    </li>
+    <li>
+      <strong>Gamificação:</strong> Aplicação do Kahoot a respeito dos conceitos e estilos de aprendizagem trabalhados nas aulas anteriores.
+    </li>
+    <li>
+      <strong>Feedback:</strong> Roda de conversa a respeito dos resultados gerados pelo relatório do Kahoot, dificuldades e potencialidades do uso da gamificação como objeto de revisão de conceitos.
+    </li>
+    <li>
+      <strong>Trabalho em equipe:</strong> Divisão dos grupos de trabalho e sorteio de objetos de conhecimento para a produção de Kahoots como ferramenta de revisão e consolidação de conteúdos.
+    </li>
+  </ol>
         `
     },
     "professorLeonardo": {
         nome: "Prof. Leonardo Galiano",
         titulo: "Geografia – Desafios Urbanos: Como a Urbanização Está Transformando Nossas Cidades",
-        conteudo: `Turma e modalidade de ensino:
-3º anos do Ensino Médio
+        conteudo: ` <h3>Turma e Modalidade de Ensino</h3>
+  <p><strong>3º anos - Ensino Médio</strong></p>
 
-Objetos de conhecimento abordados:
-Urbanismo, Meio Ambiente, Impactos ambientais
+  <h3>Objetos de Conhecimento Abordados</h3>
+  <p>Urbanismo, Meio Ambiente, Impactos ambientais.</p>
 
-Objetivo da prática:
-Abordar as dificuldades e os desafios do urbanismo atualmente em lugares diversos seja no Brasil ou no exterior, como o crescimento populacional, a escassez de recursos, desenvolver habilidades de interpretar gráficos e tabelas com os dados apresentados mediante ao tema.
+  <h3>Objetivo da Prática</h3>
+  <p>Abordar as dificuldades e os desafios do urbanismo atualmente em lugares diversos, no Brasil ou no exterior, como o crescimento populacional e a escassez de recursos. Desenvolver habilidades de interpretação de gráficos e tabelas relacionados ao tema.</p>
 
-Metodologia inovadora para o desenvolvimento da prática:
-Rotação por estações, Ensino Maker, App Canva e CapCut.
-Recurso(s) utilizado(s):
-Chromebook, Internet, Celular, Câmera.
+  <h3>Metodologia Inovadora para o Desenvolvimento da Prática</h3>
+  <ul>
+    <li>Rotação por estações</li>
+    <li>Ensino Maker</li>
+    <li>Aplicativos Canva e CapCut</li>
+  </ul>
 
-Expectativas de aprendizagem:
-Espera-se que os estudantes entendam que o urbanismo envolve mais do que apenas a construção de prédios e ruas, trata-se de um campo que integra planejamento, infraestrutura, sustentabilidade, política pública e justiça social, refletir sobre como as escolhas feitas no planejamento urbano afetam o seu próprio dia a dia, no acesso a transporte público, ao lazer, ao trabalho ou aos serviços de saúde e educação.
+  <h3>Recurso(s) Utilizado(s)</h3>
+  <ul>
+    <li>Chromebook</li>
+    <li>Internet</li>
+    <li>Celular</li>
+    <li>Câmera</li>
+  </ul>
 
-Descreva a prática em 05 etapas
-1. Introdução ao Tema:
-Aula expositiva dialogada sobre urbanização, sua causas e consequências e expor possíveis soluções para os problemas urbanos debatidos, divisão dos grupos.
+  <h3>Expectativas de Aprendizagem</h3>
+  <p>Espera-se que os estudantes compreendam que o urbanismo vai além da construção de prédios e ruas, envolvendo planejamento, infraestrutura, sustentabilidade, políticas públicas e justiça social. Refletirão sobre como o planejamento urbano afeta o cotidiano, desde o acesso a transporte, lazer, saúde, educação e trabalho.</p>
 
-2. Pesquisa autônoma:
-Consequências positivas e negativas do urbanismo, sua infraestrutura e acessibilidade. Desenvolvimento econômico, abordando como o crescimento das áreas urbanas pode impulsionar a economia local, criando mais oportunidades de trabalho, aumentando a renda e melhorando a qualidade de vida. Segregação social e desigualdade.
-
-3. Aulas e Estudos:
-Os alunos participam ativamente de discussões, perguntas e respostas, além de procurar por recursos adicionais para aprofundar seu conhecimento e discutir ideias e elaborar planos.
-
-4. Sensibilização para o Impacto do Urbanismo na Vida das Pessoas:
-Por meio de entrevistas com moradores e pesquisas feitas na internet e no âmbito escolar, os estudantes aprenderam a identificar o impacto do urbanismo nas condições de vida, com ênfase em como ele influencia a desigualdade social, o acesso a serviços essenciais e a qualidade ambiental.
-
-5. Pensamento Crítico e Criativo:
-A criação de vídeos e diagramação permite que os discentes resolvam problemas na qual eles devem pensar sobre como comunicar uma mensagem de maneira clara e impactante fazendo uso de equipamentos e recursos audiovisuais.
-        `
+  <h3>Descrição da Prática em 05 Etapas</h3>
+        <ol>
+  <li><strong>Introdução ao Tema:</strong> Aula expositiva dialogada sobre urbanização, suas causas, consequências e possíveis soluções. Formação dos grupos de trabalho.</li>
+  <li><strong>Pesquisa Autônoma:</strong> Investigação sobre os impactos positivos e negativos do urbanismo, sua infraestrutura, acessibilidade, desenvolvimento econômico e desigualdade social.</li>
+  <li><strong>Aulas e Estudos:</strong> Discussões guiadas, perguntas e respostas, pesquisas e elaboração de planos baseados em recursos coletados.</li>
+  <li><strong>Sensibilização para o Impacto do Urbanismo:</strong> Entrevistas com moradores e pesquisas para identificar os efeitos do urbanismo na vida cotidiana, com foco na desigualdade social e no acesso a serviços essenciais.</li>
+  <li><strong>Pensamento Crítico e Criativo:</strong> Produção de vídeos e materiais diagramados utilizando equipamentos audiovisuais e ferramentas digitais para comunicar mensagens de forma clara e impactante.</li>
+  </ol>`
     },
     "professoraJozi": {
         nome: "Profª Jozi Gomes",
         titulo: "Circuitos Mágicos: Desvendando Eletrônica com Arduinos",
-        conteudo: `Turma e modalidade de ensino:
-8º anos – Ensino Fundamental II
+        conteudo: `<h3>Turma e Modalidade de Ensino</h3>
+  <p><strong>8º anos – Ensino Fundamental II</strong></p>
 
-Objetos de conhecimento abordados:
-Tem como objetivo central introduzir conceitos básicos de eletrônica utilizando Arduinos. Os alunos aprenderão sobre circuitos elétricos simples e componentes eletrônicos com aulas teóricas, seguida da montagem prática de um circuito de LED.
+  <h3>Objetos de Conhecimento Abordados</h3>
+  <p>Introdução aos conceitos básicos de eletrônica utilizando Arduinos. Os alunos aprenderão sobre circuitos elétricos simples e componentes eletrônicos por meio de aulas teóricas e práticas com montagem de circuitos de LED.</p>
 
-Objetivo da prática:
-Compreender os componentes básicos de um circuito elétrico e desenvolver a capacidade de planejar e realizar experimentos científicos com análise de resultados.
+  <h3>Objetivo da Prática</h3>
+  <p>Compreender os componentes básicos de um circuito elétrico e desenvolver a capacidade de planejar e realizar experimentos científicos com análise de resultados.</p>
 
-Metodologia inovadora para o desenvolvimento da prática:
-Método PBL e Cultura maker.
-Aula expositiva para introdução teórica, Aulas práticas usando Arduinos.
+  <h3>Metodologia Inovadora para o Desenvolvimento da Prática</h3>
+  <ul>
+    <li>Método PBL (Aprendizagem Baseada em Problemas)</li>
+    <li>Cultura Maker</li>
+    <li>Aula expositiva para introdução teórica</li>
+    <li>Aulas práticas com Arduino</li>
+  </ul>
 
-Recurso(s) utilizado(s):
-Material de apoio impresso com informações teóricas e práticas, Repositório, Chromebook, Internet, Aplicativos de interação, Kits Arduino e componentes eletrônicos.
+  <h3>Recurso(s) Utilizado(s)</h3>
+  <ul>
+    <li>Material de apoio impresso</li>
+    <li>Repositório digital</li>
+    <li>Chromebook</li>
+    <li>Internet</li>
+    <li>Aplicativos de interação</li>
+    <li>Kits Arduino e componentes eletrônicos</li>
+  </ul>
 
-Expectativas de aprendizagem:
-Espera-se que os discentes possam relacionar os conhecimentos aprendidos com situações reais do cotidiano, promovendo o pensamento sustentável e ético, estabelecendo conexões entre tecnologia, desenvolvendo nos estudantes a autonomia e o pensamento crítico na resolução de problemas que possam surgir.
+  <h3>Expectativas de Aprendizagem</h3>
+  <p>Espera-se que os alunos consigam relacionar os conhecimentos adquiridos com situações do cotidiano, desenvolvendo pensamento sustentável e ético, além de estimular a autonomia e o pensamento crítico para resolver problemas reais utilizando tecnologia.</p>
 
-Descreva a prática em 05 etapas
-1. Introdução Teórica aos Conceitos de Eletrônica:
-A aula iniciou-se com a apresentação dos conceitos básicos de eletrônica e circuitos elétricos, utilizando recursos visuais para ilustrar os componentes principais: resistores, capacitores, LEDs e fontes de energia, destacando a função de cada componente em um circuito.
+  <h3>Descrição da Prática em 05 Etapas</h3>
 
-2. Exploração dos Componentes:
-Distribuição dos kits de Arduino e dos componentes eletrônicos para os alunos, instruindo-os no manuseio de cada item, enquanto isso fazia-se um breve resumo de suas características e usos.
+  <ol>
+    <li>
+      <strong>Introdução Teórica aos Conceitos de Eletrônica:</strong> Apresentação dos conceitos básicos de eletrônica e circuitos elétricos com recursos visuais. Explicação dos componentes como resistores, capacitores, LEDs e fontes de energia.</li>
 
-3. Demonstração de Circuitos Simples:
-Demonstração prática, montando um circuito elétrico simples utilizando uma placa de prototipagem, fazendo junto com os estudantes o passo a passo da conexão feita e a lógica por trás de cada funcionamento do circuito, permitindo que eles sugiram alterações na montagem para observar diferentes resultados.
+  <li>
+      <strong>Exploração dos Componentes:</strong> Distribuição dos kits Arduino e componentes. Instruções sobre o manuseio de cada item com breve explicação de suas características e aplicações.</li>
 
-4. Discussão em Grupo e Síntese dos Conceitos:
-A turma foi dividida em pequenos grupos e foi solicitado que eles discutam o que aprenderam até o momento, o que mais lhes chamou atenção, quais as partes foram mais interessantes, fazendo uso de aplicativos que contemplem formato flash card e mapa mental.
+  <li>
+      <strong>Demonstração de Circuitos Simples:</strong> Montagem de um circuito simples com placa de prototipagem. Explicação passo a passo das conexões e lógica do circuito, permitindo aos alunos propor alterações.</li>
 
-5. Planejamento do Projeto e execução:
-Nesse momento os grupos irão definir um projeto prático que envolva iluminação e sinalização e querem criar e como aplicar os conhecimentos adquiridos com os componentes eletrônicos.
-        `
+  <li>
+      <strong>Discussão em Grupo e Síntese dos Conceitos:</strong> Divisão da turma em grupos para discutir aprendizados, pontos de interesse e dificuldades. Utilização de aplicativos para flash cards e mapas mentais para organizar os conceitos.</li>
+
+  <li>
+      <strong>Planejamento do Projeto e Execução:</strong> Cada grupo define um projeto prático envolvendo iluminação e sinalização. Aplicação dos conhecimentos adquiridos durante a prática com Arduino e componentes eletrônicos.</li>
+    </ol>`
     }
 };
 
 function formatarTextoPlano(texto) {
-  // 1) quebra dupla → novo parágrafo
-  // 2) quebra simples → <br>
-  return texto
-    .trim()
-    .split(/\n{2,}/)                 // separa blocos por linha vazia
-    .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
-    .join("");
+    // 1) quebra dupla → novo parágrafo
+    // 2) quebra simples → <br>
+    return texto
+        .trim()
+        .split(/\n{2,}/)                 // separa blocos por linha vazia
+        .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+        .join("");
 }
 
 const projetoSelecionado = localStorage.getItem("projetoSelecionado");
 const projeto = projetos[projetoSelecionado];
 if (projeto) {
-  document.getElementById("professorProjeto").textContent = projeto.titulo;
-  document.getElementById("nomeProfessor").textContent  = "Professor(a): " + projeto.nome;
-  document.getElementById("conteudoProjeto").innerHTML = formatarTextoPlano(projeto.conteudo);
+    document.getElementById("professorProjeto").textContent = projeto.titulo;
+    document.getElementById("nomeProfessor").textContent = "Professor(a): " + projeto.nome;
+    document.getElementById("conteudoProjeto").innerHTML =
+        `<div class="projeto">${projeto.conteudo}</div>`;
+
 } else {
-  document.getElementById("professorProjeto").textContent = "Projeto não encontrado";
-  document.getElementById("conteudoProjeto").textContent = "Verifique se a seleção foi feita corretamente no index.html.";
+    document.getElementById("professorProjeto").textContent = "Projeto não encontrado";
+    document.getElementById("conteudoProjeto").textContent = "Verifique se a seleção foi feita corretamente no index.html.";
 }
 

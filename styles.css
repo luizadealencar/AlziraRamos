@@ -251,13 +251,14 @@ body {
     padding: 2rem;
 }
 
-.news-card-content p{
+.news-card-content p {
     margin-bottom: 6px;
 }
 
 .news-card-content .btn {
     margin-top: auto;
-    align-self: flex-start; /* ou center / flex-end, se quiser alterar o alinhamento horizontal */
+    align-self: flex-start;
+    /* ou center / flex-end, se quiser alterar o alinhamento horizontal */
 }
 
 .news-card h3 {
@@ -669,13 +670,15 @@ footer {
     display: inline-block;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-right: 2rem; /* ou menos, teste com 1rem */
+    margin-right: 2rem;
+    /* ou menos, teste com 1rem */
 }
 
 @keyframes loopScroll {
     0% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(-33.33%);
     }
@@ -817,7 +820,8 @@ textarea {
     color: #555;
 }
 
-#conteudo, #conteudoProjeto {
+#conteudo,
+#conteudoProjeto {
     text-align: justify;
 }
 
@@ -826,13 +830,29 @@ textarea {
 }
 
 #formulario {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #formulario input {
-  margin: 5px;
+    margin: 5px;
 }
 
+.projeto {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projeto h3 {
+    color: #2a4d69;
+    margin-top: 1.2em;
+}
+
+.projeto ul,
+.projeto ol {
+    padding-left: 20px;
+}
 
 
 /* Responsive */
