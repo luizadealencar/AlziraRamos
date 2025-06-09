@@ -15,7 +15,7 @@
     <nav class="navbar">
         <div class="navbar-container">
             <a href="index.html" class="navbar-brand">
-                <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
+                <img src="img/logoar.png" alt="Logo"
                     class="navbar-logo">
                 <span class="navbar-title">EEEFM Alzira Ramos</span>
             </a>
@@ -178,7 +178,7 @@
                         <li>18:20 - 19:10 — Português</li>
                     </ul>
                 </div>
-            </div>            
+            </div>
         </section>
 
         <section class="atividades">
@@ -244,7 +244,7 @@
                     <img src="img\raimunda.jpg" alt="raimunda" />
                     <h3>Raimunda</h3>
                     <p>Disciplina: Cultura Digital</p>
-                </div>                            
+                </div>
                 <div class="professor">
                     <img src="img\denilson.jpg" alt="Denilson" />
                     <h3>Denilson de Souza Cordeiro</h3>
@@ -254,12 +254,12 @@
                     <img src="img\debora.jpg" alt="debora" />
                     <h3>Débora Aparecida Rocha Moreira</h3>
                     <p>Disciplina: Química e Prática Experimentais</p>
-                </div>              
+                </div>
                 <div class="professor">
                     <img src="img\silvana.jpg" alt="Silvana" />
                     <h3>Silvana</h3>
                     <p>Professora AEE</p>
-                </div>           
+                </div>
             </div>
         </section>
     </main>
@@ -282,24 +282,5 @@
         </div>
     </footer>
     <script src="script.js"></script>
-    <script>
-        // Pega o ID da URL
-        const params = new URLSearchParams(window.location.search);
-        const id = parseInt(params.get("id"));
-
-        // Procura a notícia
-        const noticia = noticias.find(n => n.id === id);
-
-        if (noticia) {
-            document.getElementById("titulo").textContent = noticia.titulo;
-            document.getElementById("data").textContent = noticia.data;
-            document.getElementById("imagem").src = noticia.imagem;
-            document.getElementById("imagem").alt = noticia.titulo;
-            document.getElementById("conteudo").innerText = noticia.conteudo;
-        } else {
-            document.getElementById("noticia").innerHTML = "<p>Notícia não encontrada.</p>";
-        }
-    </script>
 </body>
-
 </html>

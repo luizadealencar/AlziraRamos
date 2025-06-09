@@ -149,7 +149,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200') center/cover;
+        url('img/salamaker3.jpeg') center/cover;
     display: flex;
     align-items: flex-end;
     padding-bottom: 4rem;
@@ -825,9 +825,15 @@ textarea {
     display: none;
 }
 
-#calendarioReal {
-  display: block;
+#formulario {
+  margin-bottom: 20px;
 }
+
+#formulario input {
+  margin: 5px;
+}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {

@@ -13,10 +13,9 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-            <h1>ESSE HORARIO TA ERRADO</h1>
         <div class="navbar-container">
             <a href="index.html" class="navbar-brand">
-                <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
+                <img src="img/logoar.png" alt="Logo"
                     class="navbar-logo">
                 <span class="navbar-title">EEEFM Alzira Ramos</span>
             </a>
@@ -274,24 +273,5 @@
         </div>
     </footer>
     <script src="script.js"></script>
-    <script>
-        // Pega o ID da URL
-        const params = new URLSearchParams(window.location.search);
-        const id = parseInt(params.get("id"));
-
-        // Procura a notícia
-        const noticia = noticias.find(n => n.id === id);
-
-        if (noticia) {
-            document.getElementById("titulo").textContent = noticia.titulo;
-            document.getElementById("data").textContent = noticia.data;
-            document.getElementById("imagem").src = noticia.imagem;
-            document.getElementById("imagem").alt = noticia.titulo;
-            document.getElementById("conteudo").innerText = noticia.conteudo;
-        } else {
-            document.getElementById("noticia").innerHTML = "<p>Notícia não encontrada.</p>";
-        }
-    </script>
 </body>
-
 </html>

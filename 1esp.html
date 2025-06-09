@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <!-- Navbar -->
+<body data-turma="1ESP">
 
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-container">
             <a href="index.html" class="navbar-brand">
-                <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?w=100" alt="Logo"
-                    class="navbar-logo">
+                <img src="img/logoar.png" alt="Logo" class="navbar-logo">
                 <span class="navbar-title">EEEFM Alzira Ramos</span>
             </a>
 
@@ -184,13 +183,17 @@
 
         <section class="atividades">
             <h2>Calendário de Atividades - 1ESP</h2>
-            <input type="date" id="dataAtividade" required>
-            <input type="text" id="descricaoAtividade" placeholder="Atividade" required>
-            <input type="text" id="professorAtividade" placeholder="Professor" required>
-            <input type="text" id="disciplinaAtividade" placeholder="Disciplina" required>
-            <button onclick="adicionarAtividade()">Adicionar</button>
-            <div id="listaAtividadesMobile"></div>
-            <div id="calendarioReal"></div>
+            <div id="calendar-container"></div>
+            
+            <div id="activity-form">
+                <input type="date" id="data" />
+                <input type="text" id="professor" placeholder="Professor" />
+                <input type="text" id="atividade" placeholder="Atividade" />
+                <input type="text" id="descricao" placeholder="Descrição" />
+                <button onclick="adicionarAtividade()">Adicionar</button>
+            </div>
+
+            <div id="activity-list"></div>
         </section>
 
         <section id="professores">
@@ -287,23 +290,149 @@
     </footer>
     <script src="script.js"></script>
     <script>
-        // Pega o ID da URL
-        const params = new URLSearchParams(window.location.search);
-        const id = parseInt(params.get("id"));
+        document.addEventListener("DOMContentLoaded", () => {
+            const turma = document.body.dataset.turma || "1ESP";
+            let calendar;
 
-        // Procura a notícia
-        const noticia = noticias.find(n => n.id === id);
+            function gerarID() {
+                return '_' + Math.random().toString(36).substr(2, 9);
+            }
 
-        if (noticia) {
-            document.getElementById("titulo").textContent = noticia.titulo;
-            document.getElementById("data").textContent = noticia.data;
-            document.getElementById("imagem").src = noticia.imagem;
-            document.getElementById("imagem").alt = noticia.titulo;
-            document.getElementById("conteudo").innerText = noticia.conteudo;
-        } else {
-            document.getElementById("noticia").innerHTML = "<p>Notícia não encontrada.</p>";
-        }
+            function carregarEventos() {
+                const chave = `atividades_${turma}`;
+                const atividades = JSON.parse(localStorage.getItem(chave)) || [];
+                return atividades.map(ev => ({
+                    id: ev.id,
+                    title: ev.title,
+                    date: ev.date,
+                    descricao: ev.descricao,
+                    professor: ev.professor,
+                    disciplina: ev.disciplina
+                }));
+            }
+
+            function atualizarCalendario() {
+                if (calendar) {
+                    calendar.removeAllEvents();
+                    const eventos = carregarEventos();
+                    eventos.forEach(evento => calendar.addEvent(evento));
+                }
+            }
+
+            function limparFormulario() {
+                document.getElementById('dataAtividade').value = "";
+                document.getElementById('descricaoAtividade').value = "";
+                document.getElementById('professorAtividade').value = "";
+                document.getElementById('disciplinaAtividade').value = "";
+            }
+
+            function adicionarAtividade() {
+                const data = document.getElementById('dataAtividade').value;
+                const descricao = document.getElementById('descricaoAtividade').value;
+                const professor = document.getElementById('professorAtividade').value;
+                const disciplina = document.getElementById('disciplinaAtividade').value;
+
+                if (!data || !descricao || !professor || !disciplina) {
+                    alert("Preencha todos os campos!");
+                    return;
+                }
+
+                const atividade = {
+                    id: gerarID(),
+                    title: `${descricao} - ${disciplina} (${professor})`,
+                    date: data,
+                    descricao,
+                    professor,
+                    disciplina
+                };
+
+                const chave = `atividades_${turma}`;
+                const atividades = JSON.parse(localStorage.getItem(chave)) || [];
+                atividades.push(atividade);
+                localStorage.setItem(chave, JSON.stringify(atividades));
+
+                limparFormulario();
+                atualizarCalendario();
+                exibirAtividadesMobile();
+            }
+
+            function excluirAtividade(id) {
+                const chave = `atividades_${turma}`;
+                let atividades = JSON.parse(localStorage.getItem(chave)) || [];
+                atividades = atividades.filter(a => a.id !== id);
+                localStorage.setItem(chave, JSON.stringify(atividades));
+                atualizarCalendario();
+                exibirAtividadesMobile();
+            }
+
+            function exibirAtividadesMobile() {
+                const lista = document.getElementById('listaAtividadesMobile');
+                const calendario = document.getElementById('calendarioReal');
+                const chave = `atividades_${turma}`;
+                const atividadesSalvas = JSON.parse(localStorage.getItem(chave)) || [];
+
+                if (window.innerWidth <= 768) {
+                    if (calendario) calendario.style.display = 'none';
+                    if (lista) {
+                        lista.innerHTML = '';
+                        if (atividadesSalvas.length === 0) {
+                            lista.innerHTML = '<p>Não há atividades.</p>';
+                        } else {
+                            atividadesSalvas.forEach(atividade => {
+                                const item = document.createElement('div');
+                                item.style.background = '#fff';
+                                item.style.border = '1px solid #ccc';
+                                item.style.padding = '10px';
+                                item.style.marginBottom = '10px';
+                                item.style.borderRadius = '5px';
+                                item.innerHTML = `
+                            <strong>Data:</strong> ${atividade.date}<br>
+                            <strong>Disciplina:</strong> ${atividade.disciplina}<br>
+                            <strong>Professor:</strong> ${atividade.professor}<br>
+                            <strong>Descrição:</strong> ${atividade.descricao}
+                        `;
+                                lista.appendChild(item);
+                            });
+                        }
+                    }
+                } else {
+                    if (calendario) calendario.style.display = 'block';
+                    if (lista) lista.innerHTML = '';
+                }
+            }
+
+            function renderizarCalendario() {
+                const calendarEl = document.getElementById('calendarioReal');
+                if (!calendarEl) return;
+
+                calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    locale: 'pt-br',
+                    height: 500,
+                    headerToolbar: {
+                        left: 'title',
+                        center: '',
+                        right: 'prev,next'
+                    },
+                    events: carregarEventos(),
+                    eventClick: function (info) {
+                        if (confirm(`Deseja excluir a atividade?\n\n${info.event.title}`)) {
+                            excluirAtividade(info.event.id);
+                        }
+                    }
+                });
+
+                calendar.render();
+            }
+
+            // Eventos
+            window.adicionarAtividade = adicionarAtividade;
+            window.addEventListener('resize', exibirAtividadesMobile);
+            renderizarCalendario();
+            exibirAtividadesMobile();
+        });
     </script>
+
 </body>
 
 </html>

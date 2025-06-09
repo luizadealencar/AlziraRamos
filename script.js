@@ -183,7 +183,7 @@ const optimizedScroll = debounce(() => {
 const noticias = [
     {
         id: 1,
-        titulo: "Olimpíada de Geografia",
+        professor: "Olimpíada de Geografia",
         data: "Publicado em 02/06/2025",
         imagem: "img/olimpiada-2.png",
         conteudo: `Escola Alzira Ramos Lança Projeto para Participar da Olimpíada Brasileira de Geografia, iniciativa do professor Leonardo busca incentivar o aprendizado e destacar a escola no cenário educacional.
@@ -203,7 +203,7 @@ O projeto marca um passo importante no compromisso da Escola Alzira Ramos com a 
     },
     {
         id: 2,
-        titulo: "Passeio Pedagógico à Câmara dos Vereadores",
+        professor: "Passeio Pedagógico à Câmara dos Vereadores",
         data: "Publicado em 02/06/2025",
         imagem: "img/vereadores.jpg",
         conteudo: `Na segunda-feira, 26 de maio, os alunos da nossa escola tiveram a oportunidade de participar de um passeio pedagógico à Câmara dos Vereadores. O evento é especialmente significativo para os estudantes da eletiva Cidade Acessível, que contaram com a presença de muitos alunos do Atendimento Educacional Especializado (AEE).
@@ -218,30 +218,57 @@ Ficamos muito animados com esta oportunidade e esperamos que os alunos aproveite
     },
     {
         id: 3,
-        titulo: "Lançamento do Clube de Xadrez",
+        professor: "Lançamento do Clube de Xadrez",
         data: "Publicado em 03/06/2025",
         imagem: "img/xadrez.jpg",
         conteudo: `A Escola Alzira Ramos inaugura seu novo Clube de Xadrez, com o objetivo de estimular o raciocínio lógico, a concentração e a estratégia entre os alunos. O clube proporciona um espaço para que os estudantes desenvolvam habilidades intelectuais e aprendam a competir de forma saudável. Para isso, a escola adquiriu relógios oficiais de xadrez, que serão usados nas partidas e treinamentos, garantindo mais profissionalismo e dinamismo às atividades.`
     },
     {
         id: 4,
-        titulo: "Formação do time de vôlei feminino",
+        professor: "Formação do time de vôlei feminino",
         data: "Publicado em 03/06/2025",
         imagem: "img/volei.jpg",
         conteudo: `A escola também comemora a formação da sua primeira equipe feminina de vôlei. As alunas já estão em fase de treinamento, sob a supervisão da professora de educação física Michely, preparando-se para participar das competições escolares. Essa iniciativa valoriza a inclusão e o incentivo à prática esportiva entre as meninas, promovendo disciplina, trabalho em equipe e fortalecimento do espírito esportivo.`
     },
     {
         id: 5,
-        titulo: "Melhorias na Quadra Esportiva",
+        professor: "Melhorias na Quadra Esportiva",
         data: "Publicado em 03/06/2025",
         imagem: "img/quadra.jpg",
         conteudo: `Pequenos reparos foram realizados na quadra da escola para melhorar o ambiente de prática esportiva. Além disso, foi feita a pintura do lado de fora da escola e houve reorganização do espaço, que agora está mais seguro e confortável para os alunos. Essas melhorias contribuem para um ambiente mais agradável, facilitando o desenvolvimento de diferentes modalidades esportivas e incentivando a participação dos estudantes.`
     },
     {
         id: 6,
-        titulo: "Festa Cultural",
+        professor: "Festa Cultural",
         data: "Publicado em 03/06/2025",
         imagem: "img/quadrilha.jpg",
+        conteudo: `A Escola Alzira Ramos já está em clima de festa! Com muita animação, tradição e espírito de coletividade, a escola anuncia a realização de sua tradicional Festa Junina, que neste ano será ainda mais especial. Marcando o encerramento do semestre letivo antes das férias escolares, o evento será uma grande Festa Cultural Junina e estará aberto à participação de toda a comunidade.
+
+A festividade está sendo organizada com muito carinho por professores, funcionários, alunos e suas famílias, e promete ser um momento inesquecível de integração e celebração. Além de trazer os elementos clássicos da cultura junina, como comidas típicas, danças, brincadeiras e decoração caipira, a festa também contará com apresentações culturais preparadas pelos próprios estudantes ao longo das últimas semanas.
+
+A escola como espaço de cultura e tradição
+
+Mais do que uma comemoração, a Festa Junina da Escola Alzira Ramos é uma oportunidade de valorizar as tradições populares brasileiras, integrando o currículo pedagógico à vivência cultural. Cada turma está preparando sua contribuição especial para o evento, que pode incluir desde quadrilhas, peças teatrais temáticas, músicas regionais até exposições artísticas sobre o folclore e os costumes juninos.
+
+A coordenadora pedagógica destaca que a festa é também um momento de aprendizagem: “Trabalhamos com os alunos o significado histórico e cultural das festas juninas. É uma forma lúdica e afetiva de fortalecer o sentimento de pertencimento e a valorização da cultura popular”.
+
+Aberta à comunidade
+
+Neste ano, a escola decidiu abrir os portões para a comunidade do entorno, convidando familiares, vizinhos e moradores da região a participarem do evento. “Queremos que todos se sintam acolhidos. A escola é um espaço coletivo e democrático, e a festa é uma maneira de aproximar ainda mais a comunidade da vida escolar”, afirma o diretor Vagner.
+
+Durante o evento, os visitantes poderão desfrutar de barraquinhas com comidas típicas como canjica, milho verde, pipoca, bolos, paçoca, caldos e doces diversos. Também haverá brincadeiras tradicionais como pescaria, boca do palhaço e correio elegante. E, claro, não vai faltar a tão esperada quadrilha junina, com apresentações dos alunos e até participação aberta para o público dançar junto.
+
+Um momento para celebrar e agradecer
+
+A Festa Cultural Junina simboliza também um momento de confraternização e gratidão. É a celebração do esforço coletivo de toda a comunidade escolar durante o primeiro semestre do ano. Alunos, professores e famílias se uniram para tornar esse momento possível, mostrando mais uma vez a força da colaboração e do trabalho em equipe.
+
+Todos estão convidados a vestir seu traje caipira, trazer o sorriso no rosto e se juntar a essa grande festa. A Escola Alzira Ramos espera por você com muita alegria, música e tradição!`
+    },
+    {
+        id: 7,
+        professor: "Escola Alzira Ramos inaugura Sala Maker e aposta em inovação no ensino",
+        data: "Publicado em 09/06/2025",
+        imagem: "img/salamaker1.jpeg",
         conteudo: `A Escola Alzira Ramos já está em clima de festa! Com muita animação, tradição e espírito de coletividade, a escola anuncia a realização de sua tradicional Festa Junina, que neste ano será ainda mais especial. Marcando o encerramento do semestre letivo antes das férias escolares, o evento será uma grande Festa Cultural Junina e estará aberto à participação de toda a comunidade.
 
 A festividade está sendo organizada com muito carinho por professores, funcionários, alunos e suas famílias, e promete ser um momento inesquecível de integração e celebração. Além de trazer os elementos clássicos da cultura junina, como comidas típicas, danças, brincadeiras e decoração caipira, a festa também contará com apresentações culturais preparadas pelos próprios estudantes ao longo das últimas semanas.
@@ -267,18 +294,6 @@ Todos estão convidados a vestir seu traje caipira, trazer o sorriso no rosto e 
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
-    const containerEquipe = document.getElementById("lista-equipe");
-    equipe.forEach(membro => {
-        const div = document.createElement("div");
-        div.className = "professor";
-        div.innerHTML = `
-        <img src="${membro.foto}" alt="${membro.nome}">
-        <h4>${membro.nome}</h4>
-        <p><strong>Cargo:</strong> ${membro.cargo}</p>
-      `;
-        containerEquipe.appendChild(div);
-    });
-
     // Mantém a parte do calendário das turmas, se ainda for usada:
     const turmas = ["1ESP", "1IPI1", "1IPI2", "2IPI1", "2IPI2", "3IPI1", "3IPI2", "2RDC1", "2RDC2", "3RDC"];
     const calendarioContainer = document.getElementById("calendarios-turmas");
@@ -290,205 +305,262 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-let calendar;
-const turma = document.body.dataset.turma;
-console.log("TURMA DETECTADA:", turma);
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    renderizarCalendario();
-});
-
-function adicionarAtividade() {
-    const data = document.getElementById('dataAtividade').value;
-    const descricao = document.getElementById('descricaoAtividade').value;
-    const professor = document.getElementById('professorAtividade').value;
-    const disciplina = document.getElementById('disciplinaAtividade').value;
-
-    if (!data || !descricao || !professor || !disciplina) {
-        alert("Preencha todos os campos!");
-        return;
-    }
-
-    const atividade = {
-        id: gerarID(),
-        title: `${descricao} - ${disciplina} (${professor})`,
-        date: data,
-        descricao,
-        professor,
-        disciplina
-    };
-
-    const chave = `atividades_${turma}`;
-    const atividades = JSON.parse(localStorage.getItem(chave)) || [];
-    atividades.push(atividade);
-    localStorage.setItem(chave, JSON.stringify(atividades));
-
-    limparFormulario();
-    atualizarCalendario();
-}
-
-function gerarID() {
-    return '_' + Math.random().toString(36).substr(2, 9);
-}
-
-function limparFormulario() {
-    document.getElementById('dataAtividade').value = "";
-    document.getElementById('descricaoAtividade').value = "";
-    document.getElementById('professorAtividade').value = "";
-    document.getElementById('disciplinaAtividade').value = "";
-}
-
-function renderizarCalendario() {
-    const calendarEl = document.getElementById('calendarioReal');
-    calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        locale: 'pt-br',
-        height: 500,
-        headerToolbar: {
-            left: 'title',
-            center: '',
-            right: 'prev,next'
-        },
-        events: carregarEventos(),
-        eventClick: function (info) {
-            if (confirm(`Deseja excluir a atividade?\n\n${info.event.title}`)) {
-                excluirAtividade(info.event.id);
-            }
-        }
-    });
-
-    calendar.render();
-}
-
-function carregarEventos() {
-    const chave = `atividades_${turma}`;
-    const atividades = JSON.parse(localStorage.getItem(chave)) || [];
-    return atividades.map(ev => ({
-        id: ev.id,
-        title: ev.title,
-        date: ev.date,
-        descricao: ev.descricao,
-        professor: ev.professor,
-        disciplina: ev.disciplina
-    }));
-}
-
-function atualizarCalendario() {
-    calendar.removeAllEvents();
-    const eventos = carregarEventos();
-    eventos.forEach(evento => calendar.addEvent(evento));
-}
-
-function excluirAtividade(id) {
-    const chave = `atividades_${turma}`;
-    let atividades = JSON.parse(localStorage.getItem(chave)) || [];
-    atividades = atividades.filter(a => a.id !== id);
-    localStorage.setItem(chave, JSON.stringify(atividades));
-    atualizarCalendario();
-}
 
 function toggleMobileMenu() {
     const nav = document.getElementById("navbarNav");
     nav.classList.toggle("active");
 }
 
-const atividades = [];
-
-function adicionarAtividade() {
-    const data = document.getElementById('dataAtividade').value;
-    const descricao = document.getElementById('descricaoAtividade').value;
-    const professor = document.getElementById('professorAtividade').value;
-    const disciplina = document.getElementById('disciplinaAtividade').value;
-
-    if (data && descricao && professor && disciplina) {
-        atividades.push({ data, descricao, professor, disciplina });
-        document.getElementById('dataAtividade').value = '';
-        document.getElementById('descricaoAtividade').value = '';
-        document.getElementById('professorAtividade').value = '';
-        document.getElementById('disciplinaAtividade').value = '';
-    }
-
-    exibirAtividadesMobile();
-}
-
-function exibirAtividadesMobile() {
-    const lista = document.getElementById('listaAtividadesMobile');
-    const calendario = document.getElementById('calendarioReal');
-    lista.innerHTML = '';
-
-    if (window.innerWidth <= 768) {
-        calendario.style.display = 'none';
-        if (atividades.length === 0) {
-            lista.innerHTML = '<p>Não há atividades.</p>';
-        } else {
-            atividades.forEach(atividade => {
-                const item = document.createElement('div');
-                item.style.background = '#fff';
-                item.style.border = '1px solid #ccc';
-                item.style.padding = '10px';
-                item.style.marginBottom = '10px';
-                item.style.borderRadius = '5px';
-                item.innerHTML = `
-            <strong>Data:</strong> ${atividade.data}<br>
-            <strong>Disciplina:</strong> ${atividade.disciplina}<br>
-            <strong>Professor:</strong> ${atividade.professor}<br>
-            <strong>Descrição:</strong> ${atividade.descricao}
-          `;
-                lista.appendChild(item);
-            });
-        }
-    } else {
-        calendario.style.display = 'block';
-    }
-}
-
-window.addEventListener('resize', exibirAtividadesMobile);
-window.addEventListener('load', exibirAtividadesMobile);
-
 const projetos = {
-    "professor1": {
-        nome: "Prof. Leonardo",
-        titulo: "Geografia na Prática – Olimpíada Brasileira de Geografia",
+    "professoraDebora": {
+        nome: "Profª Débora Moreira",
+        titulo: "Tabela Periódica com Experimentos Químicos Interativos",
         conteudo: `
-          O projeto visa estimular o interesse pela Geografia por meio da participação na OBG.
-          Os alunos formarão equipes e estudarão temas como mudanças climáticas, urbanização,
-          geopolítica e cartografia, com orientação do professor Leonardo. A proposta é integrar
-          o conhecimento científico com desafios intelectuais reais.
+          Turma e Modalidade de ensino:
+          1º anos - Ensino Médio
+
+          Objetivos de conhecimento abordados:
+Através das aulas planejadas no formato interativo busca oferecer aos estudantes um entendimento mais prático e aplicado dos conceitos químicos fundamentais.
+
+          Objetivo da prática:
+Compreender tendências e propriedades da Tabela Periódica. Aplicar tecnologias digitais no processo de aprendizagem.
+
+          Metodologia inovadora para o desenvolvimento da prática:
+Rotação por estações, aprendizado colaborativo e uso de tecnologias digitais.
+
+Recurso(s) utilizado(s):
+Aplicativos de anotações digitais;
+Vídeos e artigos sobre a Tabela Periódica;
+Intérpretes de LIBRAS para apoio em sala;
+Chromebook;
+Internet.
+
+Expectativas de aprendizagem:
+Combinação de sala de aula invertida, o conteúdo visa expandir a compreensão teórica para contextos do cotidiano, promovendo uma educação que vá além do conhecimento em sala de aula, através de ferramentas digitais, como quizzes e aplicativos, espera-se que os alunos desenvolvam não apenas conhecimento químico, mas também competências digitais essenciais para o século XXI.
+
+Descreva a prática:
+Apresentação da Atividade e Preparação Inicial
+Introdução à Tabela Periódica através de estudos individuais, ao seu início apresentando o objetivo geral que é explorar a Tabela Periódica com o auxílio de tecnologia de modo interativo e explicando o conceito de sala de aula invertida.
+
+Atividade por rotações
+O objetivo é fazer com que os alunos explorem os diferentes conceitos e aspectos da tabela periódica divididos por estações, momento destinado para levantamento das informações de acordo com cada estação.
+
+Visitação das Estações
+Cada grupo irá apresentar as suas descobertas e experimentos realizados nas estações:
+Estação 1: Conhecendo os elementos através da tela interativa e do PTable.
+Estação 2: Experimento visual e experimentos através da interatividade realizando simulações para demonstração reações químicas.
+Estação 3: Criando um modelo utilizando o Tinkercad criando modelos tridimensionais de moléculas.
+Estação 4: Desafio da Tabela Periódica através dos quizzes interativos foi testado o conhecimento dos alunos referentes à organização dos elementos e suas propriedades e aplicações.
+
+Discussão/Conclusão:
+Os alunos fizeram uma discussão sobre as relações entre as propriedades dos elementos e os seus comportamentos durante as simulações e experimentos visuais.
         `
     },
-    "professoraMichely": {
-        nome: "Profª Michely",
-        titulo: "Esporte e Inclusão – Formação do Time de Vôlei Feminino",
-        conteudo: `
-          O projeto tem como objetivo incentivar a participação das alunas na prática esportiva,
-          com foco na formação da equipe feminina de vôlei da escola. Através de treinamentos e
-          trabalho em equipe, busca-se promover disciplina, saúde e autoestima.
+    "professorWladimir": {
+        nome: "Prof Wladimir",
+        titulo: "Aula de Língua Portuguesa – Desvendando a Morfossintaxe",
+        conteudo: `Turma e modalidade de ensino:
+9º anos – Ensino Fundamental
+
+Objetos de conhecimento abordados:
+Material estruturado Rotina Pedagógica Morfossintaxe.
+
+Objetivo da prática:
+Criar jogos através da cultura maker, como revisão para a aula de Língua Portuguesa focando na Morfossintaxe com intuito de tornar a aprendizagem mais dinâmica e divertida, os jogos ajudarão a fixar os conteúdos de forma eficaz.
+
+Metodologia inovadora para o desenvolvimento da prática:
+Aula expositiva dialogada; Ensino Híbrido; Aprendizagem entre times; Cultura Maker.
+Recurso(s) utilizado(s): Tela Interativa – Classcraft – Chromebook – Plataforma online Quizizz – Canva – IA Lumen 5.
+
+Expectativas de aprendizagem:
+Relacionar as alterações morfológicas com a função sintática das palavras e entender como essas mudanças impactam o significado das orações.
+
+Descreva a prática em 05 etapas.
+Quiz Interativo – Funções Sintáticas com Tecnologia (Cultura Maker Digital):
+Através das plataformas digitais para criar quizzes interativos os alunos irão criar quizzes personalizados com questões sobre funções sintáticas (sujeito, predicado, objetos, adjuntos, etc.).
+
+Construção de Sentenças com Materiais Físicos (Cultura Maker Analógica):
+Momento destinado para a criação e organização de frases, que ajudarão a visualizarem as funções sintáticas de forma mais concreta onde cada cartão representa um termo sintático: sujeito, verbo, objeto, adjunto.
+
+Montagem de cartões sintáticos:
+Nessa etapa cada estudante criará um “cartão sintático” para representar uma função, escrevendo a definição com exemplo de uso através da ferramenta digital Canva.
+
+Estação Interativa de Funções Sintáticas:
+A esta altura os estudantes farão em torno da escola algumas estações de aprendizagem, estação do sujeito e predicado, estação da análise sintática com quizzes nas quais apresentam diferentes aspectos da morfossintaxe de forma prática.
+
+Documentação do Processo:
+Os estudantes realizaram com auxílio da inteligência artificial Lumen 5, mostrando todo o processo de criação e de exposição, desde as reuniões iniciais até a montagem final, feito isso eles exibiram o trabalho para outros alunos.
         `
     },
-    "professorCarlos": {
-        nome: "Prof. Carlos",
-        titulo: "Matemática no Cotidiano – Clube de Xadrez",
-        conteudo: `
-          O Clube de Xadrez busca desenvolver habilidades como lógica, estratégia e concentração.
-          As atividades incluem treinos regulares e uso de relógios oficiais. O projeto propõe
-          a integração entre raciocínio lógico e competição saudável.
+    "professorGraziani": {
+        nome: "Prof. Graziani Gatti",
+        titulo: "A Transformação do Capitalismo: Da Era Industrial à Sociedade Digital e a Revolução do Trabalho",
+        conteudo: `Turma e modalidade de ensino:
+9º anos - Ensino Fundamental.
+
+Objetos de conhecimento abordados:
+Contextualizar as revoluções industriais e a transição do capitalismo industrial para o capitalismo informacional.
+
+Objetivo da prática:
+Analisar e compreender as transformações econômicas, sociais e trabalhistas provocadas pelas revoluções industriais, com ênfase na Indústria 4.0, inteligência artificial e a uberização do trabalho.
+
+Metodologia inovadora para o desenvolvimento da prática:
+Aula expositiva dialogada; Aprendizagem Colaborativa; Aprendizagem baseada em jogos.
+Recurso(s) utilizado(s): Tela interativa com auxílio do professor virtual I A, Internet e Chromebooks.
+
+Expectativas de aprendizagem:
+Proporcionar aos alunos uma compreensão sólida sobre as principais mudanças no cenário econômico e tecnológico atual, além de desenvolver suas habilidades de análise crítica e reflexão sobre as tendências futuras.
+
+Descreva a prática em 05 etapas
+1. Compreensão das Revoluções Industriais e suas Consequências:
+Os alunos devem ser capazes de identificar as principais características e impactos das 1ª, 2ª e 3ª revoluções industriais, entendendo a transição para a 4ª revolução industrial e seu impacto no mercado de trabalho e nas estruturas econômicas.
+
+2. Capacidade de Analisar a Indústria 4.0 e as Tecnologias Emergentes:
+Explicar o conceito de Indústria 4.0, com ênfase em tecnologias como inteligência artificial, Internet das Coisas (IoT), automação e big data, e entender como essas tecnologias estão moldando o futuro da produção e dos negócios.
+
+3. Reflexão Crítica sobre o Capitalismo Informacional:
+Analisar o conceito de capitalismo informacional e como ele difere do capitalismo industrial, acreditasse que eles possam entender como a informação e o conhecimento se tornaram ativos fundamentais na economia moderna.
+
+4. Educação Mais Personalizada e Acessível:
+Eles aprenderão a organizar seu próprio tempo de maneira eficaz, estabelecendo metas de aprendizado pessoais e buscando o equilíbrio entre aprender rápido em tópicos que dominam e dedicar mais tempo aos desafios.
+
+5. Customização de Conteúdo ao Estilo de Aprendizado:
+Os estudantes terão a oportunidade de identificar seu estilo de aprendizado, o que lhes permitirá escolher as estratégias mais eficazes para seu desenvolvimento.
+        `
+    },
+    "professoraDayara": {
+        nome: "Profª Dayara Falqueto",
+        titulo: "Estudo Orientado – Gamificação como recurso de revisão de objetos de conhecimento",
+        conteudo: `Turma e modalidade de ensino:
+1ª série - Ensino Médio.
+
+Objetos de conhecimento abordados:
+Estratégias e técnicas de estudo que auxiliem no aprendizado.
+
+Objetivo da prática:
+Desenvolver a capacidade do aluno de aprender de forma autônoma, incentivando a responsabilidade e o controle sobre seu próprio aprendizado por meio de técnicas e estratégias de estudo.
+
+Metodologia inovadora para o desenvolvimento da prática:
+Gamificação; Ensino Maker.
+Recurso(s) utilizado(s):
+Tela interativa, App Kahoot, Internet e Laboratório de informática.
+
+Expectativas de aprendizagem:
+Compreender a gamificação como estratégia de revisão de conteúdo. Além de conhecer diferentes técnicas e estratégias de ensino com foco em atender as necessidades individuais de cada estudante, tornando o aprendizado mais eficaz e personalizado.
+
+Descreva a prática em 05 etapas
+1. Conhecendo a técnica VARK:
+Aula expositiva dialogada a respeito da técnica VARK (visual, auditivo, leitura/escrita e cinestésico), enfatizando os benefícios e características através da tela interativa.
+
+2. Aplicando a técnica ao perfil:
+Preenchimento do perfil de estudo individualizado de cada estudante.
+
+3. Gamificação:
+Aplicação do Kahoot a respeito dos conceitos e estilos de aprendizagem trabalhados nas aulas anteriores.
+
+4. Feedback:
+Roda de conversa a respeito dos resultados gerados pelo relatório do Kahoot, dificuldades e potencialidades do uso da gamificação como objeto de revisão de conceitos.
+
+5. Trabalho em equipe:
+Divisão dos grupos de trabalho e sorteio de objetos de conhecimento para a produção de Kahoots como ferramenta de revisão e consolidação de conteúdos.
+        `
+    },
+    "professorLeonardo": {
+        nome: "Prof. Leonardo Galiano",
+        titulo: "Geografia – Desafios Urbanos: Como a Urbanização Está Transformando Nossas Cidades",
+        conteudo: `Turma e modalidade de ensino:
+3º anos do Ensino Médio
+
+Objetos de conhecimento abordados:
+Urbanismo, Meio Ambiente, Impactos ambientais
+
+Objetivo da prática:
+Abordar as dificuldades e os desafios do urbanismo atualmente em lugares diversos seja no Brasil ou no exterior, como o crescimento populacional, a escassez de recursos, desenvolver habilidades de interpretar gráficos e tabelas com os dados apresentados mediante ao tema.
+
+Metodologia inovadora para o desenvolvimento da prática:
+Rotação por estações, Ensino Maker, App Canva e CapCut.
+Recurso(s) utilizado(s):
+Chromebook, Internet, Celular, Câmera.
+
+Expectativas de aprendizagem:
+Espera-se que os estudantes entendam que o urbanismo envolve mais do que apenas a construção de prédios e ruas, trata-se de um campo que integra planejamento, infraestrutura, sustentabilidade, política pública e justiça social, refletir sobre como as escolhas feitas no planejamento urbano afetam o seu próprio dia a dia, no acesso a transporte público, ao lazer, ao trabalho ou aos serviços de saúde e educação.
+
+Descreva a prática em 05 etapas
+1. Introdução ao Tema:
+Aula expositiva dialogada sobre urbanização, sua causas e consequências e expor possíveis soluções para os problemas urbanos debatidos, divisão dos grupos.
+
+2. Pesquisa autônoma:
+Consequências positivas e negativas do urbanismo, sua infraestrutura e acessibilidade. Desenvolvimento econômico, abordando como o crescimento das áreas urbanas pode impulsionar a economia local, criando mais oportunidades de trabalho, aumentando a renda e melhorando a qualidade de vida. Segregação social e desigualdade.
+
+3. Aulas e Estudos:
+Os alunos participam ativamente de discussões, perguntas e respostas, além de procurar por recursos adicionais para aprofundar seu conhecimento e discutir ideias e elaborar planos.
+
+4. Sensibilização para o Impacto do Urbanismo na Vida das Pessoas:
+Por meio de entrevistas com moradores e pesquisas feitas na internet e no âmbito escolar, os estudantes aprenderam a identificar o impacto do urbanismo nas condições de vida, com ênfase em como ele influencia a desigualdade social, o acesso a serviços essenciais e a qualidade ambiental.
+
+5. Pensamento Crítico e Criativo:
+A criação de vídeos e diagramação permite que os discentes resolvam problemas na qual eles devem pensar sobre como comunicar uma mensagem de maneira clara e impactante fazendo uso de equipamentos e recursos audiovisuais.
+        `
+    },
+    "professoraJozi": {
+        nome: "Profª Jozi Gomes",
+        titulo: "Circuitos Mágicos: Desvendando Eletrônica com Arduinos",
+        conteudo: `Turma e modalidade de ensino:
+8º anos – Ensino Fundamental II
+
+Objetos de conhecimento abordados:
+Tem como objetivo central introduzir conceitos básicos de eletrônica utilizando Arduinos. Os alunos aprenderão sobre circuitos elétricos simples e componentes eletrônicos com aulas teóricas, seguida da montagem prática de um circuito de LED.
+
+Objetivo da prática:
+Compreender os componentes básicos de um circuito elétrico e desenvolver a capacidade de planejar e realizar experimentos científicos com análise de resultados.
+
+Metodologia inovadora para o desenvolvimento da prática:
+Método PBL e Cultura maker.
+Aula expositiva para introdução teórica, Aulas práticas usando Arduinos.
+
+Recurso(s) utilizado(s):
+Material de apoio impresso com informações teóricas e práticas, Repositório, Chromebook, Internet, Aplicativos de interação, Kits Arduino e componentes eletrônicos.
+
+Expectativas de aprendizagem:
+Espera-se que os discentes possam relacionar os conhecimentos aprendidos com situações reais do cotidiano, promovendo o pensamento sustentável e ético, estabelecendo conexões entre tecnologia, desenvolvendo nos estudantes a autonomia e o pensamento crítico na resolução de problemas que possam surgir.
+
+Descreva a prática em 05 etapas
+1. Introdução Teórica aos Conceitos de Eletrônica:
+A aula iniciou-se com a apresentação dos conceitos básicos de eletrônica e circuitos elétricos, utilizando recursos visuais para ilustrar os componentes principais: resistores, capacitores, LEDs e fontes de energia, destacando a função de cada componente em um circuito.
+
+2. Exploração dos Componentes:
+Distribuição dos kits de Arduino e dos componentes eletrônicos para os alunos, instruindo-os no manuseio de cada item, enquanto isso fazia-se um breve resumo de suas características e usos.
+
+3. Demonstração de Circuitos Simples:
+Demonstração prática, montando um circuito elétrico simples utilizando uma placa de prototipagem, fazendo junto com os estudantes o passo a passo da conexão feita e a lógica por trás de cada funcionamento do circuito, permitindo que eles sugiram alterações na montagem para observar diferentes resultados.
+
+4. Discussão em Grupo e Síntese dos Conceitos:
+A turma foi dividida em pequenos grupos e foi solicitado que eles discutam o que aprenderam até o momento, o que mais lhes chamou atenção, quais as partes foram mais interessantes, fazendo uso de aplicativos que contemplem formato flash card e mapa mental.
+
+5. Planejamento do Projeto e execução:
+Nesse momento os grupos irão definir um projeto prático que envolva iluminação e sinalização e querem criar e como aplicar os conhecimentos adquiridos com os componentes eletrônicos.
         `
     }
 };
 
-// Obter ID do projeto selecionado (salvo no localStorage, por exemplo ao clicar no index)
-const projetoSelecionado = localStorage.getItem("projetoSelecionado");
-
-// Pegar os dados
-const projeto = projetos[projetoSelecionado];
-
-// Preencher HTML
-if (projeto) {
-    document.getElementById("tituloProjeto").textContent = projeto.titulo;
-    document.getElementById("nomeProfessor").textContent = "Professor(a): " + projeto.nome;
-    document.getElementById("conteudoProjeto").innerHTML = projeto.conteudo;
-} else {
-    document.getElementById("tituloProjeto").textContent = "Projeto não encontrado";
-    document.getElementById("conteudoProjeto").textContent = "Verifique se a seleção foi feita corretamente no index.html.";
+function formatarTextoPlano(texto) {
+  // 1) quebra dupla → novo parágrafo
+  // 2) quebra simples → <br>
+  return texto
+    .trim()
+    .split(/\n{2,}/)                 // separa blocos por linha vazia
+    .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+    .join("");
 }
+
+const projetoSelecionado = localStorage.getItem("projetoSelecionado");
+const projeto = projetos[projetoSelecionado];
+if (projeto) {
+  document.getElementById("professorProjeto").textContent = projeto.titulo;
+  document.getElementById("nomeProfessor").textContent  = "Professor(a): " + projeto.nome;
+  document.getElementById("conteudoProjeto").innerHTML = formatarTextoPlano(projeto.conteudo);
+} else {
+  document.getElementById("professorProjeto").textContent = "Projeto não encontrado";
+  document.getElementById("conteudoProjeto").textContent = "Verifique se a seleção foi feita corretamente no index.html.";
+}
+
