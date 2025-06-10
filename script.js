@@ -328,7 +328,7 @@ const projetos = {
     `
     },
     "professorWladimir": {
-        nome: "Prof Wladimir",
+        nome: "Prof. Wladimir",
         titulo: "Aula de Língua Portuguesa – Desvendando a Morfossintaxe",
         conteudo: `
     <h3>Turma e Modalidade de Ensino</h3>
