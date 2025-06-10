@@ -346,22 +346,19 @@ const projetos = {
 
   <h3>Descrição da Prática</h3>
 
-  <h4>1. Apresentação da Atividade e Preparação Inicial</h4>
-  <p>Introdução à Tabela Periódica através de estudos individuais, apresentando o objetivo geral de explorar a Tabela Periódica com o auxílio de tecnologia de modo interativo, explicando o conceito de sala de aula invertida.</p>
+  <li><strong>Apresentação da Atividade e Preparação Inicial:</strong> Introdução à Tabela Periódica através de estudos individuais, apresentando o objetivo geral de explorar a Tabela Periódica com o auxílio de tecnologia de modo interativo, explicando o conceito de sala de aula invertida.</li>
 
-  <h4>2. Atividade por Rotações</h4>
-  <p>O objetivo é fazer com que os alunos explorem os diferentes conceitos e aspectos da Tabela Periódica divididos por estações, momento destinado ao levantamento de informações de acordo com cada estação.</p>
+  <li><strong>Atividade por Rotações:</strong> O objetivo é fazer com que os alunos explorem os diferentes conceitos e aspectos da Tabela Periódica divididos por estações, momento destinado ao levantamento de informações de acordo com cada estação.</li>
 
-  <h4>3. Visitação das Estações</h4>
-  <ul>
+  <li><strong>Visitação das Estações:</strong>
+    <ul>
     <li><strong>Estação 1:</strong> Conhecendo os elementos através da tela interativa e do PTable.</li>
     <li><strong>Estação 2:</strong> Experimento visual e simulações interativas para demonstração de reações químicas.</li>
     <li><strong>Estação 3:</strong> Criando modelos tridimensionais de moléculas utilizando o Tinkercad.</li>
     <li><strong>Estação 4:</strong> Desafio da Tabela Periódica com quizzes interativos para testar o conhecimento sobre organização dos elementos, propriedades e aplicações.</li>
-  </ul>
+  </ul></li>
 
-  <h4>4. Discussão/Conclusão</h4>
-  <p>Os alunos participaram de uma discussão sobre as relações entre as propriedades dos elementos e seus comportamentos durante as simulações e experimentos visuais.</p>
+  <li><strong>Discussão/Conclusão:</strong> Os alunos participaram de uma discussão sobre as relações entre as propriedades dos elementos e seus comportamentos durante as simulações e experimentos visuais.</li>
         `
     },
     "professorWladimir": {
