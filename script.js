@@ -1,25 +1,20 @@
-// Mobile menu toggle
 function toggleMobileMenu() {
     const nav = document.getElementById('navbarNav');
     nav.classList.toggle('active');
 }
 
-// FAQ toggle
 function toggleFAQ(index) {
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems[index].classList.toggle('active');
 }
 
-// Form submission
 function handleSubmit(event) {
     event.preventDefault();
     alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
     event.target.reset();
 }
 
-// Smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function () {
-    // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -29,13 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     behavior: 'smooth',
                     block: 'start'
                 });
-                // Close mobile menu if open
                 document.getElementById('navbarNav').classList.remove('active');
             }
         });
     });
 
-    // Navbar background on scroll
     window.addEventListener('scroll', function () {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {
@@ -45,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Animate elements on scroll
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -100px 0px'
@@ -60,7 +52,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }, observerOptions);
 
-    // Observe elements for animation
     document.querySelectorAll('.news-card, .stat-item, .faq-item').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
@@ -68,7 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(el);
     });
 
-    // Gallery auto-scroll pause on hover
     const gallery = document.querySelector('.gallery-container');
     if (gallery) {
         gallery.addEventListener('mouseenter', function () {
@@ -80,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Add loading animation for images
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('load', function () {
@@ -90,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
         img.style.transition = 'opacity 0.3s ease';
     });
 
-    // Counter animation for stats
     function animateCounter(element, target) {
         const duration = 2000;
         const start = 0;
@@ -108,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 16);
     }
 
-    // Observe stat numbers for counter animation
     const statObserver = new IntersectionObserver(function (entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting && !entry.target.dataset.animated) {
@@ -123,7 +110,6 @@ document.addEventListener('DOMContentLoaded', function () {
         statObserver.observe(stat);
     });
 
-    // Mobile menu close on outside click
     document.addEventListener('click', function (event) {
         const nav = document.getElementById('navbarNav');
         const toggle = document.querySelector('.mobile-menu-toggle');
@@ -133,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Add active state to current nav item
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-link');
 
@@ -156,7 +141,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Utility function for debouncing
 function debounce(func, wait) {
     let timeout;
     return function executedFunction(...args) {
@@ -169,7 +153,6 @@ function debounce(func, wait) {
     };
 }
 
-// Optimize scroll events
 const optimizedScroll = debounce(() => {
     // Navbar background
     const navbar = document.querySelector('.navbar');
@@ -289,8 +272,6 @@ document.addEventListener("DOMContentLoaded", () => {
         calendarioContainer.appendChild(div);
     });
 });
-
-
 
 function toggleMobileMenu() {
     const nav = document.getElementById("navbarNav");
