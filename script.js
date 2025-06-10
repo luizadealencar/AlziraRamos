@@ -269,27 +269,13 @@ Todos estão convidados a vestir seu traje caipira, trazer o sorriso no rosto e 
         professor: "Escola Alzira Ramos inaugura Sala Maker e aposta em inovação no ensino",
         data: "Publicado em 09/06/2025",
         imagem: "img/salamaker1.jpeg",
-        conteudo: `A Escola Alzira Ramos já está em clima de festa! Com muita animação, tradição e espírito de coletividade, a escola anuncia a realização de sua tradicional Festa Junina, que neste ano será ainda mais especial. Marcando o encerramento do semestre letivo antes das férias escolares, o evento será uma grande Festa Cultural Junina e estará aberto à participação de toda a comunidade.
+        conteudo: `Na próxima semana, a Escola Estadual de Ensino Fundamental e Médio Alzira Ramos dará um importante passo rumo à inovação educacional com a inauguração oficial da sua Sala Maker. O espaço foi criado para estimular a criatividade, o pensamento crítico e o trabalho colaborativo entre os estudantes, através de atividades práticas ligadas à tecnologia, robótica, artes e ciência.
 
-A festividade está sendo organizada com muito carinho por professores, funcionários, alunos e suas famílias, e promete ser um momento inesquecível de integração e celebração. Além de trazer os elementos clássicos da cultura junina, como comidas típicas, danças, brincadeiras e decoração caipira, a festa também contará com apresentações culturais preparadas pelos próprios estudantes ao longo das últimas semanas.
+Com computadores, impressora 3D, kits de robótica e materiais diversos para construção, a Sala Maker será um ambiente de experimentação, onde os alunos poderão desenvolver projetos interdisciplinares e aplicar, de forma concreta, os conhecimentos adquiridos em sala de aula.
 
-A escola como espaço de cultura e tradição
+Segundo a diretora da escola, professora Marta Oliveira, “a ideia é transformar o aprendizado em uma experiência mais viva, onde o aluno seja protagonista da sua própria descoberta.”
 
-Mais do que uma comemoração, a Festa Junina da Escola Alzira Ramos é uma oportunidade de valorizar as tradições populares brasileiras, integrando o currículo pedagógico à vivência cultural. Cada turma está preparando sua contribuição especial para o evento, que pode incluir desde quadrilhas, peças teatrais temáticas, músicas regionais até exposições artísticas sobre o folclore e os costumes juninos.
-
-A coordenadora pedagógica destaca que a festa é também um momento de aprendizagem: “Trabalhamos com os alunos o significado histórico e cultural das festas juninas. É uma forma lúdica e afetiva de fortalecer o sentimento de pertencimento e a valorização da cultura popular”.
-
-Aberta à comunidade
-
-Neste ano, a escola decidiu abrir os portões para a comunidade do entorno, convidando familiares, vizinhos e moradores da região a participarem do evento. “Queremos que todos se sintam acolhidos. A escola é um espaço coletivo e democrático, e a festa é uma maneira de aproximar ainda mais a comunidade da vida escolar”, afirma o diretor Vagner.
-
-Durante o evento, os visitantes poderão desfrutar de barraquinhas com comidas típicas como canjica, milho verde, pipoca, bolos, paçoca, caldos e doces diversos. Também haverá brincadeiras tradicionais como pescaria, boca do palhaço e correio elegante. E, claro, não vai faltar a tão esperada quadrilha junina, com apresentações dos alunos e até participação aberta para o público dançar junto.
-
-Um momento para celebrar e agradecer
-
-A Festa Cultural Junina simboliza também um momento de confraternização e gratidão. É a celebração do esforço coletivo de toda a comunidade escolar durante o primeiro semestre do ano. Alunos, professores e famílias se uniram para tornar esse momento possível, mostrando mais uma vez a força da colaboração e do trabalho em equipe.
-
-Todos estão convidados a vestir seu traje caipira, trazer o sorriso no rosto e se juntar a essa grande festa. A Escola Alzira Ramos espera por você com muita alegria, música e tradição!`
+A inauguração acontecerá nesta sexta-feira, às 10h, com a presença de professores, estudantes, representantes da comunidade e convidados especiais. A expectativa é que o espaço se torne referência no uso da tecnologia a serviço da educação pública na região.`
     }
 ];
 
